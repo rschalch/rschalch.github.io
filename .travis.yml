@@ -3,6 +3,12 @@ branches:
   only:
   - pelican
 language: python
+python:
+- 3.5.2
+notifications:
+  email:
+    on_success: always
+    on_failure: always
 before_install:
 - openssl aes-256-cbc -K $encrypted_f8d5cbc502db_key -iv $encrypted_f8d5cbc502db_iv -in publish-key.enc -out ~/.ssh/publish-key -d
 - chmod u=rw,og= ~/.ssh/publish-key
