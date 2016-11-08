@@ -1,0 +1,8 @@
+{
+    "editor.selectionHighlight": false,
+
+    // Python    
+    "python.pythonPath":"/home/rbs/.virtualenvs/rschalch.github.io/bin/python",
+    "python.linting.pep8Enabled": true,
+    "python.formatting.provider": "autopep8"
+}
