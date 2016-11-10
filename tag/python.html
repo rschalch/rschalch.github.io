@@ -1,236 +1,204 @@
-<!doctype html>
-<html lang="en-US">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <title>rschalch's blog - </title>
-    <meta name="description" content="" />
-    <meta name="Author" content="Ken M. Lai(networktsukkomime.me)" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="python" />
 
+
+    <title>python - rschalch's blog</title>
+
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css" />
+
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/theme/css/pygments/native.css" rel="stylesheet" />
+    
+    <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/html5.js"></script>
-    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/respond.min.js"></script>
-    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
-
-
-    <!-- CORE CSS FRAMEWORK -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-    <!-- CSS TEMPLATE -->
-    <link href="/theme/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="/theme/css/framework.css" rel="stylesheet" type="text/css" />
-    <link href="/theme/css/typography.css" rel="stylesheet" type="text/css" />
-    <link href="/theme/css/layout.css" rel="stylesheet" type="text/css" />
-
-    <link href="/theme/css/blog.css" rel="stylesheet" type="text/css" />
-
-    <!-- ICONS -->
-
-    <!-- mobile settings -->
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-
-    <!-- Morenizr -->
-    <script type="text/javascript" src="/theme/js/modernizr.min.js"></script>
-
-    <!-- google authorship -->
+    
+    <!-- Feeds -->
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="rschalch's blog ATOM Feed" />
 </head>
-<body>
-
-<!-- Main Nav -->
-<header id="header" style="margin-top:0">
-
-  <nav class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-
-      <!-- Mobile Menu Button -->
-      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
-
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <a class="navbar-brand scrollTo" href="#home">
-          <img src="" alt="" width="50" height="50" />
-          <span class="hidden-xs">rschalch&#39;s blog</span>
+<body data-spy="scroll" data-target="#scrollspy">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper-small" class="twitchy-background">
+            <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
+                <li>
+        <a href="" title="rschalch's blog" class="collapsed">
+            <span class="glyphicon glyphicon-home"></span>
         </a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-        <!-- Fullscreen Button - Unavailable for IE -->
-        <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
-
-        <ul class="nav navbar-nav navbar-right">
-          <!-- If the user wants to make articles the home page then remove blog link, and make about and work links point to old home page. -->
-            <li><a href="/index.html#home">Home</a></li>
-            <li><a href="/index.html#about">About</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
-              <ul class="dropdown-menu" style="background-color:#000">
-                <li style="background-color:#000"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
-                <li style="background-color:#000"><a href="http://python.org/" target="_blank">Python.org</a></li>
-                <li style="background-color:#000"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
-                <li style="background-color:#000"><a href="#" target="_blank">You can modify those links in your config file</a></li>
-              </ul>
-            </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-
-    </div>
-  </nav>
-</header>
-<!-- /Main Nav -->  <section id="blog">
-    <article class="container">
-
-      <div class="row">
-        <div id="blog_main_area" class="left col-md-9">
-  <div class="item">
-      <div class="item-title">
-        <h2>python</h2>
-      </div>
-          <p><a href="/my-road-to-python.html"><span class="label label-default light">Ter 08 novembro 2016</span> My Road to Python</a></p>
-  </div>
-        </div>
-
-        <!-- SIDEBAR -->
-        <div class="right col-md-3">
-          <!-- recent work -->
-          <!-- <div class="widget">
-
-                      <h3>Recent Work</h3>
-
-                      <a class="popup-image thumb" href="assets/images/preview/slider/1.jpg">
-                          <img src="/theme/img/1x1.png" class="img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
-                      </a>
-                      <a class="popup-video thumb" href="http://www.youtube.com/watch?v=kh29_SERH0Y?rel=0">
-                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
-                      </a>
-                      <a class="popup-video thumb" href="http://vimeo.com/23630702">
-                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
-                      </a>
-
-                      <a class="external ajax-project thumb" href="project-external-1.html">
-                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
-                      </a>
-                      <a class="external ajax-project thumb" href="project-external-2.html">
-                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
-                      </a>
-                      <a class="external ajax-project thumb" href="project-external-3.html">
-                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
-                      </a>
-
-                      <div class="clearfix"></div>
-                  </div> -->
-
-          <!-- categories -->
-          <div class="widget">
-
-            <h3>Categories</h3>
-
-            <ul>
-               <li><a class="theme_link" href="/category/main.html"><i class="fa fa-dot-circle-o"></i> main</a>
-              </li>
-            </ul>
-
-          </div>
-
-          <!-- Archives -->
-          <div class="widget">
-
-            <h3>Archives</h3>
-
-            <!-- Get all of the articles with their dates -->
-            <div class="hidden">
-                None
-            </div>
-
-            <!-- If the user indicates they prefer a list.-->                <ul class="tree">
+    </li>
+                <li class="nav-divider"></li>
+                <li>
+        <a href="/archives.html" title="Recent Articles" class="collapsed">
+            <span class="glyphicon glyphicon-th-list"></span>
+        </a>
+    </li>
+                
+                <li class="nav-divider"></li>
+                <li>
+                    <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-social-small" title="Social" class="collapsed">
+                        <i class="fa fa-users padding-small"></i>
+                    </a>
+                </li>
+                <li class="panel anti-panel"><ul id="collapse-social-small" class="collapse ">
                     <li>
-                        <span><i class="fa fa-minus-square-o"></i>2016</span>
-                        <ul>
-                            <li>
-                                <span><i class="fa fa-plus-square-o"></i>11</span>
-                                <ul>
-                                        <li style="display: none;">
-                                            <a class="theme_link" href="/my-road-to-python.html">
-                                            <small>Ter 08 novembro 2016</small>My Road to Python</a>
-                                        </li>
-                                </ul>
-                            </li>
-                        </ul></li>
-                </ul></div>
-
+                        <a href="#" title="Another social link"><i class="fa fa-another-social-link-square fa-lg padding-small"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="You can add links in your config file"><i class="fa fa-you-can-add-links-in-your-config-file-square fa-lg padding-small"></i></a>
+                    </li>
+                </ul></li>
+                <li class="nav-divider"></li>
+                <li>
+        <a href="#" title="Back to top" class="collapsed">
+            <span class="fa fa-arrow-up"></span>
+        </a>
+    </li>
+            </ul>
         </div>
-        <!-- /SIDEBAR -->
-
-      </div>
-
-    </article>
-  </section>
-  <!-- /BLOG -->
-
-<!-- FOOTER -->
-<footer>
-
-  <!-- SCROOL TO TOP -->
-  <a href="#toTop" class="fa fa-arrow-up toTop"></a>
-
-  <div class="container">
-
-    <div class="row">
-
-        <div class="col-md-6 copyright">
-            rschalch&#39;s blog
-            <br />2015 &copy; All Rights Reserved.
+        <div id="sidebar-wrapper" class="twitchy-background">
+            <ul id="accordion" class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="/">
+                            <span class="glyphicon glyphicon-home padding-small"></span>
+                            rschalch's blog
+                    </a>
+                </li>
+                    <li>
+                        <a href="/archives.html">
+                            <span class="glyphicon glyphicon-th-list padding-small"></span>
+                            Recent Articles
+                        </a>
+                    </li>
+                <li class="nav-divider"></li>
+                <li>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-social">
+                        <i class="fa fa-users padding-small"></i>
+                        Contact
+                    </a>
+                </li>
+                <li class="panel anti-panel"><ul id="collapse-social" class="sidebar_submenu collapse ">
+                    <li>
+                        <a href="#" title="Another social link">
+                            <i class="fa fa-another-social-link-square fa-lg padding-small"></i>
+                            Another social link
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="You can add links in your config file">
+                            <i class="fa fa-you-can-add-links-in-your-config-file-square fa-lg padding-small"></i>
+                            You can add links in your config file
+                        </a>
+                    </li>
+                </ul></li>
+                
+                <li class="nav-divider"></li>
+                <li>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pages">
+                        <i class="fa fa-folder-open padding-small"></i>
+                        Pages
+                    </a>
+                </li>
+                <li class="panel anti-panel"><ul id="collapse-pages" class="sidebar_submenu collapse ">
+                </ul></li>
+                
+                <li class="nav-divider"></li>
+                <li>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-categories">
+                        <i class="fa fa-folder-open padding-small"></i>
+                        Categories
+                    </a>
+                </li>
+                <li class="panel anti-panel"><ul id="collapse-categories" class="sidebar_submenu collapse ">
+                    <li >
+                        <a href="/category/main.html">
+                            <i class="fa fa-folder-open padding-small"></i>
+                            main
+                            <span class="badge pull-right categorybadge">1</span>
+                        </a>
+                    </li>
+                </ul></li>
+                
+            </ul>
         </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- open/close sidebar -->
+        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+            <span id="right-arrow" class="glyphicon glyphicon-chevron-right"  title="expand sidebar"></span>
+            <span id="left-arrow" class="glyphicon glyphicon-chevron-left" title="minimize sidebar"></span>
+        </a>
+       <!-- /open/close sidebar -->
 
-        <div class="col-md-6 text-right">
-              <a href="#" class="social fa fa-you can add links in your config file" target="_blank"></a>
-              <a href="#" class="social fa fa-another social link" target="_blank"></a>
-        </div>
-
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+<div class="row">
+    <div class="col-lg-9">
+        <header class="page-header">
+            <h1>Articles featuring python</h1>
+        </header>
     </div>
+</div>
+<div class="row">
+    <div class="col-lg-9">
+            <article>
+                <h4>
+                    <time datetime="2016-11-08T00:00:00-02:00"> Ter 08 novembro 2016</time>
+                    <a href="/my-road-to-python.html">My Road to Python</a>
+                </h4>
+            </article>
+    </div>
+</div>
+<footer>
+    <hr>
+    <div class="row">
+        <div class="col-lg-9 text-center">
+            <p><small>
+                Built by <a href="http://docs.getpelican.com/en/latest">Pelican</a> / <a href="https://github.com/ingwinlu/pelican-twitchy">pelican-twitchy</a>
+                &middot;                    &copy; 2016 Ricardo Bürger Schalch
+            </small></p>
+        </div>
+    </div>
+</footer>            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery Version 1.11.2 -->
+    <script src="/theme/js/jquery-1.11.2.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+    <!-- twitchy Script -->
+    <script src="/theme/js/pelican_twitchy.min.js"></script>
+<script>
+    function FadeInOnScroll(ObjectList){
+        ObjectList.each(function(i) {
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-  </div>
-</footer>
-<!-- /FOOTER -->
+            if( bottom_of_window > bottom_of_object ){
+                $(this).fadeTo(750,1);
+            }
+        });
+    }
 
+    articles = $("article").fadeTo(0, 0.05);
+    FadeInOnScroll(articles)
 
-
-<!-- CORE FILES -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/theme/js/jquery.isotope.js"></script>
-<script type="text/javascript" src="/theme/js/masonry.js"></script>
-
-<!-- PLUGINS -->
-<script type="text/javascript" src="/theme/js/jquery.fitvids.min.js"></script>
-<script type="text/javascript" src="/theme/js/jquery.appear.js"></script>
-<script type="text/javascript" src="/theme/js/jquery.superslides.min.js"></script>
-<script type="text/javascript" src="/theme/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/theme/js/jquery.carouFredSel-6.2.1-packed.js"></script>
-<script type="text/javascript" src="/theme/js/jquery.countTo.js"></script>
-<script type="text/javascript" src="/theme/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="/theme/js/holder.js"></script>
-<!-- delete on production -->
-
-<!-- js scripts -->
-<script async type="text/javascript" src="/theme/js/scripts.js"></script>
-
-<script type="text/javascript" src="/theme/js/ImageAutoResize.js"></script>
-<script type="text/javascript" src="/theme/js/application.js"></script>
-
-
-
-
-
+    $(window).scroll(function() {
+        FadeInOnScroll(articles)
+    });
+</script>
 </body>
-
 </html>
