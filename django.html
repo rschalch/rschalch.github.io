@@ -1,223 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Ricardo Bürger Schalch" />
-        <meta name="keywords" content="django,python,web" />
-        <meta name="description" content="Django: Primeiras Impressões Vou tentar expor os meus sentimentos sobre essa fantástica ferramenta, sob o ponto de vista de quem tem um longo background em frameworks PHP. É uma framework baseada em MVC, design pattern bastante conhecido por qualquer pessoa que tenha um mínimo de experiência em desenvolvimento. Já me ..." />
+        <meta charset="utf-8" />
+        <title>Django</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Atom Feed" />
 
-
-    <title>Django - rschalch's blog</title>
-
-        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css" />
-
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/theme/css/pygments/native.css" rel="stylesheet" />
-    
-    <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet" />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Feeds -->
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="rschalch's blog ATOM Feed" />
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
-<body data-spy="scroll" data-target="#scrollspy">
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper-small" class="twitchy-background">
-            <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
-                <li>
-        <a href="" title="rschalch's blog" class="collapsed">
-            <span class="glyphicon glyphicon-home"></span>
-        </a>
-    </li>
-                <li class="nav-divider"></li>
-                <li>
-        <a href="/archives.html" title="Recent Articles" class="collapsed">
-            <span class="glyphicon glyphicon-th-list"></span>
-        </a>
-    </li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-social-small" title="Social" class="collapsed">
-                        <i class="fa fa-users padding-small"></i>
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social-small" class="collapse ">
-                    <li>
-                        <a href="#" title="Another social link"><i class="fa fa-another-social-link-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" title="You can add links in your config file"><i class="fa fa-you-can-add-links-in-your-config-file-square fa-lg padding-small"></i></a>
-                    </li>
-                </ul></li>
-                <li class="nav-divider"></li>
-                <li>
-        <a href="#" title="Back to top" class="collapsed">
-            <span class="fa fa-arrow-up"></span>
-        </a>
-    </li>
-            </ul>
-        </div>
-        <div id="sidebar-wrapper" class="twitchy-background">
-            <ul id="accordion" class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="/">
-                            <span class="glyphicon glyphicon-home padding-small"></span>
-                            rschalch's blog
-                    </a>
-                </li>
-                    <li>
-                        <a href="/archives.html">
-                            <span class="glyphicon glyphicon-th-list padding-small"></span>
-                            Recent Articles
-                        </a>
-                    </li>
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-social">
-                        <i class="fa fa-users padding-small"></i>
-                        Contact
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social" class="sidebar_submenu collapse ">
-                    <li>
-                        <a href="#" title="Another social link">
-                            <i class="fa fa-another-social-link-square fa-lg padding-small"></i>
-                            Another social link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="You can add links in your config file">
-                            <i class="fa fa-you-can-add-links-in-your-config-file-square fa-lg padding-small"></i>
-                            You can add links in your config file
-                        </a>
-                    </li>
-                </ul></li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pages">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Pages
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-pages" class="sidebar_submenu collapse ">
-                </ul></li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-categories">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Categories
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-categories" class="sidebar_submenu collapse ">
-                    <li class="active">
-                        <a href="/category/django.html">
-                            <i class="fa fa-folder-open padding-small"></i>
-                            django
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                    <li >
-                        <a href="/category/main.html">
-                            <i class="fa fa-folder-open padding-small"></i>
-                            main
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                </ul></li>
-                
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- open/close sidebar -->
-        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-            <span id="right-arrow" class="glyphicon glyphicon-chevron-right"  title="expand sidebar"></span>
-            <span id="left-arrow" class="glyphicon glyphicon-chevron-left" title="minimize sidebar"></span>
-        </a>
-       <!-- /open/close sidebar -->
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-<section id="content">
-    <article>
-        <div class="row">
-            <div class="col-lg-9">
-                <header class="page-header">
-                    <h1>
-                        <a href="/django.html"
-                           rel="bookmark"
-                           title="Permalink to Django">
-                            Django
-                        </a>
-                        <small>
-<div class="post-info">
-    <div class="publish-info-block">
-        <small>
-            <span class="published">
-                <i class="fa fa-calendar padding-small"></i><time datetime="2016-11-11T00:00:00-02:00"> Sex 11 novembro 2016</time>
-            </span>
-            <span class="category">
-                <i class="fa fa-folder-open padding-small"></i><a href="/category/django.html">django</a>
-            </span>
-            <span class="tags">
-                <i class="fa fa-tags padding-small"></i>
-                <a href="/tag/django.html">django</a> /                 <a href="/tag/python.html">python</a> /                 <a href="/tag/web.html">web</a>            </span>
-        </small>
-    </div>
-</div><!-- /.post-info -->                        </small>
-                    </h1>
-                </header>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="entry-content">
-                    <h2>Django: Primeiras Impressões</h2>
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">rschalch's blog </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/django.html">django</a></li>
+                    <li><a href="/category/main.html">main</a></li>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/django.html" rel="bookmark"
+           title="Permalink to Django">Django</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <span>Sex 11 novembro 2016</span>
+<span>| tags: <a href="/tag/django.html">django</a><a href="/tag/python.html">python</a><a href="/tag/web.html">web</a></span>
+</footer><!-- /.post-info -->      <h2>Django: Primeiras Impressões</h2>
 <p>Vou tentar expor os meus sentimentos sobre essa fantástica ferramenta, sob o ponto de vista de quem tem um longo background em frameworks PHP. É uma framework baseada em MVC, design pattern bastante conhecido por qualquer pessoa que tenha um mínimo de experiência em desenvolvimento. Já me sinto em casa visto que esse modelo é bastante utilizado, muito prático e que proporciona uma ótima organização para qualquer projeto. Em Django se utiliza a nomenclatura MTV (Model Template View), o que corresponderia respectivamente aos Models, Views e Controllers comumente usados por aí, e esse é um ponto em que se deve ter atenção, pois iniciantes podem facilmente confundir o conceito de View.</p>
 <p>Logo ao iniciar vemos que existe uma CLI que facilita uma série de processos, como por exemplo para criar um projeto: django-admin startproject . Podemos ainda criar e executar migrations, baseados nos nossos models. Isso não é uma novidade, já existe em várias frameworks, mas me soou ainda mais simples em Django. O que realmente me cativou foi a criação automática de um admin, recurso necessário para quase todo sistema existente. Aqui vemos como a comunidade Python possui uma perspectiva diferente e progressista. Você por acaso precisa provar a si mesmo que pode criar um admin a cada projeto que inicie? Esse não é um requerimento básico da maioria dos aplicativos de hoje? Então está aqui, prontinho pra usar, queremos que vocẽ use sua inteligência e inspiração apenas nas partes divertidas do sistema e queremos ajudar você a chegar lá da forma mais rápida possível! Ah, mas esse admin, sendo um sistema pronto, provavelmente vai vir com uma série de limitações, vamos ter que usar apenas o que eles nos dão e se quisermos modificar alguma coisa vai dar o maior trabalho... Errado! Tudo foi pensado e pesado, podemos inserir ou modificar várias características apenas inserindo simples propriedades nos models referentes.</p>
-                </div>
-                <footer class="text-right">
-                    <p>- Ricardo Bürger Schalch</p>
-                </footer>
-            </div>
-        </div>
-    </article>
+    </div><!-- /.entry-content -->
+
+  </article>
 </section>
-<footer>
-    <hr>
-    <div class="row">
-        <div class="col-lg-9 text-center">
-            <p><small>
-                Built by <a href="http://docs.getpelican.com/en/latest">Pelican</a> / <a href="https://github.com/ingwinlu/pelican-twitchy">pelican-twitchy</a>
-                &middot;                    &copy; 2016 Ricardo Bürger Schalch
-            </small></p>
-        </div>
-    </div>
-</footer>            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-    </div>
-    <!-- /#wrapper -->
-    <!-- jQuery Version 1.11.2 -->
-    <script src="/theme/js/jquery-1.11.2.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/theme/js/bootstrap.min.js"></script>
-    <!-- twitchy Script -->
-    <script src="/theme/js/pelican_twitchy.min.js"></script>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
 
 </body>
 </html>
