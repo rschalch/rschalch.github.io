@@ -1,71 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
-        <title>Django</title>
-        <meta charset="utf-8" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Full Atom Feed" />
-        <link href="/feeds/articles.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Categories Atom Feed" />
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
 
 
-        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
-
-        <link rel="stylesheet" type="text/css" href="/theme/gumby.css" />
-        <link rel="stylesheet" type="text/css" href="/theme/style.css" />
-        <link rel="stylesheet" type="text/css" href="/theme/pygment.css" />
-
-        <script src="/theme/js/libs/modernizr-2.6.2.min.js"></script>
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Atom">
 
 
 
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
 
+
+<meta name="author" content="Ricardo Bürger Schalch" />
+<meta name="description" content="Python on Rails" />
+<meta name="keywords" content="django, python, web">
+<meta property="og:site_name" content="rschalch's blog"/>
+<meta property="og:title" content="Django"/>
+<meta property="og:description" content="Python on Rails"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/django-framework.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2016-11-11 00:00:00-02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/ricardo-burger-schalch.html">
+<meta property="article:section" content="Articles"/>
+<meta property="article:tag" content="django"/>
+<meta property="article:tag" content="python"/>
+<meta property="article:tag" content="web"/>
+<meta property="og:image" content="">
+
+  <title>rschalch's blog &ndash; Django</title>
 </head>
-
-<body id="index" class="home">
-
-
-    <div class="container">
-
-        <div class="row">
-
-          <header id="banner" class="body">
-                  <h1><a href="/">rschalch's blog <strong></strong></a></h1>
-          </header><!-- /#banner -->
-
-            <div id="navigation" class="navbar row">
-              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
-             
-              <ul class="columns">
-                <li><a href="/">Home</a></li>
-
-                <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
-
-              </ul>
-            </div>
-
-<section id="content" class="body">
-
-   <div class="row">
-        <div class="eleven columns">
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href=""></a></h1>
 
 
-            <header>
-              <h2 class="entry-title">
-                <a href="/django-framework.html" rel="bookmark"
-                   title="Permalink to Django">Django</a></h2>
-           
-            </header>
-            <footer class="post-info">
-              <abbr class="published" title="2016-11-11T00:00:00-02:00">
-                Sex 11 novembro 2016
-              </abbr>
-              <address class="vcard author">By 
-                <a class="url fn" href="/author/ricardo-burger-schalch.html"> Ricardo Bürger Schalch</a>
-              </address>
-            </footer><!-- /.post-info -->
-            <div class="entry-content">
-              <h2>Django: Primeiras&nbsp;Impressões</h2>
+      <nav>
+        <ul class="list">
+          <li><a href="/pages/about-me.html#about-me">About&nbsp;me</a></li>
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/rschalch" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-Github" href="https://github.com/rschalch" target="_blank"><i class="fa fa-Github"></i></a></li>
+        <li><a class="sc-Facebook" href="https://www.facebook.com/ricardo.burgerschalch" target="_blank"><i class="fa fa-Facebook"></i></a></li>
+      </ul>
+    </div>
+  </aside>
+  <main>
+
+<article>
+  <header>
+    <h1 id="django-framework">Django</h1>
+    <p>
+          Posted on Sex 11 novembro 2016 in <a href="/category/articles.html">Articles</a>
+
+
+    </p>
+  </header>
+  <div>
+    <h2>Django: Primeiras&nbsp;Impressões</h2>
 <hr />
 <p>Vou tentar expor os meus sentimentos sobre essa fantástica ferramenta, sob o ponto de vista de quem tem um longo background em frameworks <span class="caps">PHP</span>. É uma framework baseada em <span class="caps">MVC</span>, design pattern bastante conhecido por qualquer pessoa que tenha um mínimo de experiência em desenvolvimento. Já me sinto em casa visto que esse modelo é bastante utilizado, muito prático e que proporciona uma ótima organização para qualquer projeto. Em Django se utiliza a nomenclatura <strong><span class="caps">MTV</span></strong> (<em>Model Template View</em>), o que corresponderia respectivamente aos Models, Views e Controllers comumente usados por aí, e esse é um ponto em que se deve ter atenção, pois iniciantes podem facilmente confundir o conceito de&nbsp;View.</p>
 <p>Logo ao iniciar vemos que existe uma <span class="caps">CLI</span> que facilita uma série de processos, como por exemplo para criar um projeto: django-admin startproject . Podemos ainda criar e executar migrations, baseados nos nossos models. Isso não é uma novidade, já existe em várias frameworks, mas me soou ainda mais simples em Django. O que realmente me cativou foi a criação automática de um admin, recurso necessário para quase todo sistema existente. Aqui vemos como a comunidade Python possui uma perspectiva diferente e progressista. Você por acaso precisa provar a si mesmo que pode criar um admin a cada projeto que inicie? Esse não é um requerimento básico da maioria dos aplicativos de hoje? Então está aqui, prontinho pra usar, queremos que vocẽ use sua inteligência e inspiração apenas nas partes divertidas do sistema e queremos ajudar você a chegar lá da forma mais rápida possível! Ah, mas esse admin, sendo um sistema pronto, provavelmente vai vir com uma série de limitações, vamos ter que usar apenas o que eles nos dão e se quisermos modificar alguma coisa vai dar o maior trabalho&#8230; Errado! Tudo foi pensado e pesado, podemos inserir ou modificar várias características apenas inserindo simples propriedades nos models&nbsp;referentes.</p>
@@ -93,81 +108,38 @@ in a block
 
 
 <p>Markdown converts text to <abbr title="HyperText Markup Language"><span class="caps">HTML</span></abbr>.</p>
-            </div><!-- /.entry-content -->
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/django.html">django</a>
+      <a href="/tag/python.html">python</a>
+      <a href="/tag/web.html">web</a>
+    </p>
+  </div>
 
 
-        </div><!-- /.eleven.columns -->
 
-<div class="three columns">
+</article>
 
-<h4>Pages</h4>
-
- <ul>
-      <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
-  </ul>
-
-<h4>Categories</h4>
-<ul class="blank">
-		<li><a href="/category/articles.html">Articles</a></li>
-</ul>
-
-
-<h4>Tags</h4>
-	<ul class="blank">
-</ul>
-
-
-<nav class="widget">
-  <h4>Social</h4>
-  <ul class="blank">
-    <li><a href="https://twitter.com/rschalch">Twitter</a></li>
-    <li><a href="https://github.com/rschalch">Github</a></li>
-    <li><a href="https://www.facebook.com/ricardo.burgerschalch">Facebook</a></li>
-  </ul>
-</nav>
-
-</div> </div><!-- /.row -->
-
-
-</section>
-
-       </div><!-- /.row -->
-    </div><!-- /.container -->
-
-
-       <div class="container.nopad bg">
-
-    
-        <footer id="credits" class="row">
-          <div class="seven columns left-center">
-
-                   <address id="about" class="vcard body">
-                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                    which takes great advantage of <a href="http://python.org">Python</a>.
-                    <br />
-                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
-                    </address>
-          </div>
-
-
-          <div class="seven columns">
-            <div class="row">
-              <ul class="socbtns">
+    <footer>
+<p>&copy; Ricardo Bürger Schalch </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
 
 
 
 
 
-              </ul>
-            </div>
-          </div>
-        </footer>
-
-    </div>
-
-
-  <script src="/theme/js/libs/jquery-1.9.1.min.js"></script>
-  <script src="/theme/js/libs/gumby.min.js"></script>
-  <script src="/theme/js/plugins.js"></script>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " rschalch's blog ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
 </body>
 </html>
