@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>rschalch's blog</title><link href="/" rel="alternate"></link><link href="/feeds/libraries.atom.xml" rel="self"></link><id>/</id><updated>2016-11-11T00:00:00-02:00</updated><entry><title>Requests</title><link href="/requests.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:,2016-11-11:requests.html</id><summary type="html">&lt;h2&gt;Requests&lt;/h2&gt;
+&lt;hr /&gt;</summary><category term="python"></category><category term="requests"></category></entry></feed>
