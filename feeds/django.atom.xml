@@ -1,28 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>rschalch's blog</title><link href="/" rel="alternate"></link><link href="/feeds/django.atom.xml" rel="self"></link><id>/</id><updated>2016-11-11T00:00:00-02:00</updated><entry><title>Django</title><link href="/django-framework.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:,2016-11-11:django-framework.html</id><summary type="html">&lt;h2&gt;Django&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;p&gt;Em&amp;nbsp;breve!&lt;/p&gt;
-&lt;p&gt;The following is an automatic link: &lt;a href="http://example.com/"&gt;http://example.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.google.com"&gt;this is a google&amp;nbsp;link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.cnn.com/" title="My title"&gt;reference link with a title&amp;nbsp;attribute&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;block&amp;nbsp;quote&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;code&gt;This is some code&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;This is a 
-piece of code 
-in a block
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;This too
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nn"&gt;#button&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nb"&gt;border&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Markdown converts text to &lt;abbr title="HyperText Markup Language"&gt;&lt;span class="caps"&gt;HTML&lt;/span&gt;&lt;/abbr&gt;.&lt;/p&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry></feed>
+&lt;p&gt;Em&amp;nbsp;breve!&lt;/p&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry></feed>
