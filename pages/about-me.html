@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>About&nbsp;me</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's python blog Atom Feed" />
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="O começo Olá, meu nome é Ricardo, sou desenvolvedor web desde 2003, quando comecei com simples programas geradores de html para atender o meu primeiro cliente. Tinha interesse pelo código, mas ...">
+        <meta name="keywords" content="">
+        <link rel="icon" href="/favicon.ico">
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <title>About&nbsp;me - rschalch's python blog</title>
+
+        <!-- Stylesheets -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/theme/css/fonts.css" rel="stylesheet">
+        <link href="/theme/css/nest.css" rel="stylesheet">
+        <link href="/theme/css/pygment.css" rel="stylesheet">
+        <!-- /Stylesheets -->
+
+        <!-- RSS Feeds -->
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's python blog Full Atom Feed" />
+        <!-- /RSS Feeds -->
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-</head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">rschalch's python blog </a></h1>
-                <nav><ul>
-    
-                        <li><a href="/pages/contact.html">Contact</a></li>
-    
-                        <li><a href="/pages/this-blog.html">This&nbsp;blog</a></li>
-                    <li><a href="/category/django.html">Django</a></li>
-                    <li><a href="/category/libraries.html">Libraries</a></li>
-                    <li><a href="/category/tools.html">Tools</a></li>
-                </ul>
-                </nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-    <h1 class="entry-title">About&nbsp;me</h1>
-    
-    <h2>O&nbsp;começo</h2>
+
+
+    </head>
+
+    <body>
+
+        <!-- Header -->
+    <div class="header-container gradient">
+
+            <!-- Static navbar -->
+            <div class="container">
+                <div class="header-nav">
+                    <div class="header-logo">
+                        <a class="pull-left" href="/"><img class="mr20" src="/logo.svg" alt="logo">rschalch's python blog</a>
+                    </div>
+                    <div class="nav pull-right">
+                            <a  href="/pages/contact.html">Contact</a>
+                            <a  href="/pages/this-blog.html">This&nbsp;blog</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /Static navbar -->
+
+            <!-- Header -->
+    <div class="container header-wrapper">
+        <div class="row">
+              <div class="col-lg-12">
+                  <div class="header-content">
+                      <h1 class="header-title text-uppercase">About&nbsp;me</h1>
+                      <div class="header-underline"></div>
+                  </div>
+              </div>
+        </div>
+    </div>
+            <!-- /Header -->
+
+        </div>
+        <!-- /Header -->
+
+
+        <!-- Content -->
+    <div class="container content">
+        <h2>O&nbsp;começo</h2>
 <p>Olá, meu nome é Ricardo, sou desenvolvedor web desde 2003, quando comecei com simples programas geradores de html para atender o meu primeiro cliente. Tinha interesse pelo código, mas como era um primeiro projeto, conhecia pouco e havia uma urgência na sua conclusão, optei pelo caminho mais fácil (e menos profissional). Para minha sorte, esse cliente gostou tanto do &#8220;meu&#8221; trabalho que teceu mil elogios. Foi nessa hora que senti que havia descoberto o caminho que iria seguir dali em diante. E a partir disso, entrei de cabeça no mundo da &#8220;construção de sites&#8221;, comecei pesquisar templates e encontrei os poderosos sites Flash, que dominavam as premiações da web na&nbsp;época.</p>
 <p>Ficava impressionado com todos aqueles designs avançados e efeitos elegantes, visuais e sonoros, e reparei que muitas das grandes empresas do planeta apostavam nessa tecnologia para a apresentação dos seus produtos. Conheci então o &#8220;Swishmax&#8221; um software que facilitava a construção desses sites porque oferecia uma interface muito mais simples para inserção de scripts prontos. Todos os meus sites eram então construídos com essa ferramenta, cada vez mais meus clientes gostavam do meu trabalho e isso aumentava ainda mais minha vontade de pesquisar e aprofundar na área. Nunca frequentei curso algum, sempre buscava a ajuda no bom coração das pessoas que disponibilizavam seu conhecimento através de sites, fóruns e livros. O Swishmax permitia que a lógica e o visual do site fossem implementados de forma muito simples. Não demorou para perceber que eu precisava partir para o Flash, software que pertencia à Macromedia na época e que permitia uma melhor utilização daquilo que viria a ser a minha verdadeira entrada no mundo do desenvolvimento: o&nbsp;Actionscript!</p>
 <h2>O&nbsp;código</h2>
@@ -38,31 +79,45 @@
 <h2>A decisão pelo&nbsp;melhor</h2>
 <p>Não estou dizendo a ninguém que uma seja superior à outra, são todas excelentes e merecem meu respeito, mas o que senti ao trabalhar com todas elas foi o seguinte. O <span class="caps">PHP</span> está bem amadurecido, mas muitas vezes seu código pode se tornar um pouco embaralhado. Pra quê aquele dólar na frente de suas variáveis? Isso sempre me incomodou. Além de tudo o salário para profissionais dessa área sempre foi considerado o mais baixo. Java? Ótima linguagem mas burocrática e um ecossistema vasto e complexo &#8230; C#: Como Java, muito poderoso, mas as melhores ferramentas são proprietárias, caras e ainda não atendem bem um sistema multiplataforma. Ruby: Sou um grande fã da linguagem e ainda vou acompanhá-lo de perto, mas profissionalmente parece ser pouco adotada por grandes corporações o que pode dificultar temporariamente o seu crescimento. Python&nbsp;&#8230;</p>
 <p>Simples, legível, objetivo, poderoso, expansivo, flexível, modular, free, &#8220;batteries included&#8221; (termo que se refere à sua standard library, um poderoso conjunto de bibliotecas), a melhor documentação que existe, comunidade gigante e ativa, solidamente estabelecido pelo mundo todo, usado nas áreas mais diversas, em pequenos e grandes projetos, de grandes corporações a pequenos empreendimentos. Uma área que está em contínua expansão e bem remunerada. Possui frameworks maravilhosas como Django. O que mais eu posso&nbsp;querer?</p>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+    </div>
+        <!-- /Content --> 
+
+        <!-- Footer -->
+        <div class="footer gradient-2">
+            <div class="container footer-container ">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                        <div class="footer-title"></div>
+                        <ul class="list-unstyled">
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"></a></li>
                         </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="https://twitter.com/rschalch">Twitter</a></li>
-                            <li><a href="https://github.com/rschalch">Github</a></li>
-                            <li><a href="https://www.facebook.com/ricardo.burgerschalch">Facebook</a></li>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                        <div class="footer-title"></div>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/rschalch" target="_blank">Twitter</a></li>
+                            <li><a href="https://github.com/rschalch" target="_blank">Github</a></li>
+                            <li><a href="https://www.facebook.com/ricardo.burgerschalch" target="_blank">Facebook</a></li>
                         </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
-        </footer><!-- /#contentinfo -->
-
-</body>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                        <div class="footer-title"></div>
+                        <ul class="list-unstyled">
+                            <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+                            <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <p class="pull-right text-right">
+                            <small><em>Proudly powered by <a href="http://docs.getpelican.com/" target="_blank">pelican</a></em></small><br/>
+                            <small><em>Theme and code by <a href="https://github.com/molivier" target="_blank">molivier</a></em></small><br/>
+                            <small></small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Footer -->
+    </body>
 </html>
