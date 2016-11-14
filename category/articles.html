@@ -1,92 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>rschalch's blog - Articles</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Atom Feed" />
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <title>rschalch's blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Full Atom Feed" />
+        <link href="/feeds/articles.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Categories Atom Feed" />
+
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/pygment.css" />
+
+        <script src="/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+
+
 </head>
 
 <body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">rschalch's blog </a></h1>
-                <nav><ul>
-    
-                        <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
-                    <li class="active"><a href="/category/articles.html">Articles</a></li>
-                </ul>
-                </nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/django-framework.html">Django</a></h1>
-<footer class="post-info">
-        <span>Sex 11 novembro 2016</span>
-<span>| tags: <a href="/tag/django.html">django</a><a href="/tag/python.html">python</a><a href="/tag/web.html">web</a></span>
-</footer><!-- /.post-info --><h2>Django: Primeiras&nbsp;Impressões</h2>
-<hr />
-<p>Vou tentar expor os meus sentimentos sobre essa fantástica ferramenta, sob o ponto de vista de quem tem um longo background em frameworks <span class="caps">PHP</span>. É uma framework baseada em <span class="caps">MVC</span>, design pattern bastante conhecido por qualquer pessoa que tenha um mínimo de experiência em desenvolvimento. Já me sinto em casa visto que esse modelo é bastante utilizado, muito prático e que proporciona uma ótima organização para qualquer projeto. Em Django se utiliza a nomenclatura <strong><span class="caps">MTV</span></strong> (<em>Model Template View</em>), o que corresponderia respectivamente aos Models, Views e Controllers comumente usados por aí, e esse é um ponto em que se deve ter atenção, pois iniciantes podem facilmente confundir o conceito de&nbsp;View.</p>
-<p>Logo ao iniciar vemos que existe uma <span class="caps">CLI</span> que facilita uma série de processos, como por exemplo para criar um projeto: django-admin startproject . Podemos ainda criar e executar migrations, baseados nos nossos models. Isso não é uma novidade, já existe em várias frameworks, mas me soou ainda mais simples em Django. O que realmente me cativou foi a criação automática de um admin, recurso necessário para quase todo sistema existente. Aqui vemos como a comunidade Python possui uma perspectiva diferente e progressista. Você por acaso precisa provar a si mesmo que pode criar um admin a cada projeto que inicie? Esse não é um requerimento básico da maioria dos aplicativos de hoje? Então está aqui, prontinho pra usar, queremos que vocẽ use sua inteligência e inspiração apenas nas partes divertidas do sistema e queremos ajudar você a chegar lá da forma mais rápida possível! Ah, mas esse admin, sendo um sistema pronto, provavelmente vai vir com uma série de limitações, vamos ter que usar apenas o que eles nos dão e se quisermos modificar alguma coisa vai dar o maior trabalho&#8230; Errado! Tudo foi pensado e pesado, podemos inserir ou modificar várias características apenas inserindo simples propriedades nos models&nbsp;referentes.</p>
-<p>The following is an automatic link: <a href="http://example.com/">http://example.com/</a></p>
-<p><a href="http://www.google.com">this is a google&nbsp;link</a></p>
-<p><a href="http://www.cnn.com/" title="My title">reference link with a title&nbsp;attribute</a></p>
-<blockquote>
-<p>block&nbsp;quote</p>
-</blockquote>
-<p><code>This is some code</code></p>
-<div class="highlight"><pre><span></span>This is a 
-piece of code 
-in a block
-</pre></div>
 
 
-<div class="highlight"><pre><span></span>This too
-</pre></div>
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="/">rschalch's blog <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="/">Home</a></li>
+
+                <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
+
+              </ul>
+            </div>
+
+<section id="content">
+<h2>Articles in the Articles category</h2>
 
 
-<div class="highlight"><pre><span></span><span class="nn">#button</span> <span class="p">{</span>
-    <span class="nb">border</span><span class="o">:</span> <span class="nb">none</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
+   <div class="row">
 
 
-<p>Markdown converts text to <abbr title="HyperText Markup Language"><span class="caps">HTML</span></abbr>.</p>                </article>
+        <div class="eleven columns">
+                 <ol id="post-list">
+                        <li><article class="hentry">
+                                <header> <h2 class="entry-title"><a href="/django-framework.html" rel="bookmark" title="Permalink to Django">Django</a></h2> </header>
+                                <footer class="post-info">
+                                    <abbr class="published" title="2016-11-11T00:00:00-02:00"> Sex 11 novembro 2016 </abbr>
+                                    <address class="vcard author">By 
+                                    <a class="url fn" href="/author/ricardo-burger-schalch.html"> Ricardo Bürger Schalch</a>
+                                    </address>
+                                </footer><!-- /.post-info -->
+                                <div class="entry-content"> <p>Python on&nbsp;Rails</p> </div><!-- /.entry-content -->
+
+                                <div class="medium primary btn"><a href="/django-framework.html" rel="bookmark" title="Permalink to Django">Read more <i class="icon-arrow-right"></i></a></div>
+
+
+
+                                <div class="row tag-row">
+                                        <span>Tagged as : </span>
+                                            <a class="danger label" href="/tag/django.html">django</a>
+                                            <a class="danger label" href="/tag/python.html">python</a>
+                                            <a class="danger label" href="/tag/web.html">web</a>
+                                </div>
+
+
+
+                        </article></li>
+                </ol><!-- /#posts-list -->
+
+        </div><!-- /.eleven.columns -->
+        
+<div class="three columns">
+
+<h4>Pages</h4>
+
+ <ul>
+      <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
+  </ul>
+
+<h4>Categories</h4>
+<ul class="blank">
+		<li><a href="/category/articles.html">Articles</a></li>
+</ul>
+
+
+<h4>Tags</h4>
+	<ul class="blank">
+</ul>
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul class="blank">
+    <li><a href="https://twitter.com/rschalch">Twitter</a></li>
+    <li><a href="https://github.com/rschalch">Github</a></li>
+    <li><a href="https://www.facebook.com/ricardo.burgerschalch">Facebook</a></li>
+  </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
-            </ol><!-- /#posts-list -->
-            </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+</section><!-- /#content -->
 
-                            <li><a href="https://twitter.com/rschalch">Twitter</a></li>
-                            <li><a href="https://github.com/rschalch">Github</a></li>
-                            <li><a href="https://www.facebook.com/ricardo.burgerschalch">Facebook</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+       </div><!-- /.row -->
+    </div><!-- /.container -->
 
-        <footer id="contentinfo" class="body">
-                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
-        </footer><!-- /#contentinfo -->
 
+       <div class="container.nopad bg">
+
+    
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+  <script src="/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="/theme/js/libs/gumby.min.js"></script>
+  <script src="/theme/js/plugins.js"></script>
 </body>
 </html>
