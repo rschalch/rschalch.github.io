@@ -1,204 +1,270 @@
-﻿﻿<!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
-	<head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="author" content="Ricardo Bürger Schalch">
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>rschalch's python blog - </title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Ken M. Lai(networktsukkomime.me)" />
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/html5.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/respond.min.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+    <![endif]-->
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
 
 
-        <title>rschalch's python blog - Articles by Ricardo Bürger Schalch</title>
+    <!-- CORE CSS FRAMEWORK -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-            <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's python blog Full Atom Feed" />
+    <!-- CSS TEMPLATE -->
+    <link href="/theme/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/theme/css/framework.css" rel="stylesheet" type="text/css" />
+    <link href="/theme/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="/theme/css/layout.css" rel="stylesheet" type="text/css" />
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="/theme/css/style.css">
+    <link href="/theme/css/blog.css" rel="stylesheet" type="text/css" />
 
-        <!-- Custom CSS -->
-        	<link rel="stylesheet" href="/theme/css/colors/blue.css" id="colors">
+    <!-- ICONS -->
 
-        <!-- Code highlight color scheme -->
-            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- Morenizr -->
+    <script type="text/javascript" src="/theme/js/modernizr.min.js"></script>
+
+    <!-- google authorship -->
+</head>
+<body>
+    <!-- HOME -->
+    <section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
+
+    <div id="slider">
+
+        <ul class="slides-container">
+
+        <!-- Item 1 -->
+        <li>
+            <div class="image-caption">
+            <hr /><hr />
+            <div class="inner">
+                <h2 class="bigtext strtoupper nomargin">rschalch&#39;s python blog</h2>
+            </div>
+            <hr /><hr />
+            </div>
+            <span class="overlay"></span>
+            <div style="background-image: url('');" class="fullscreen-img"></div>
+           
+
+        </li>
+        </ul>
+
+    </div>
+
+    </section>
+    <!-- /HOME -->
 
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
-                <meta property="og:locale" content="">
-		<meta property="og:site_name" content="rschalch's python blog">
-	</head>
-	<body>
-		<header id="header">
-			<!-- Container -->
-			<div class="container">
-				<!-- Logo / Mobile Menu -->
-				<div class="three columns">
-					<div id="logo">
-						<h1><a href="/">rschalch's python blog</a></h1>
-					</div>
-				</div>
-				<!-- Navigation
-				================================================== -->
-				<div class="thirteen columns">
-					
-					<nav id="navigation" class="menu">
-						<ul id="responsive">
+    <!-- Main Nav -->
+<!-- Main Nav -->
+<header id="header" style="margin-top:0">
 
-							<li><a href="/">Home</a></li>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand scrollTo" href="#home">
+          <img src="" alt="" width="50" height="50" />
+          <span class="hidden-xs">rschalch&#39;s python blog</span>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <!-- Fullscreen Button - Unavailable for IE -->
+        <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
+
+        <ul class="nav navbar-nav navbar-right">
+          <!-- If the user wants to make articles the home page then remove blog link, and make about and work links point to old home page. -->
+            <li><a href="/index.html#home">Home</a></li>
+            <li><a href="/index.html#about">About</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
+              <ul class="dropdown-menu" style="background-color:#000">
+                <li style="background-color:#000"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+                <li style="background-color:#000"><a href="http://python.org/" target="_blank">Python.org</a></li>
+                <li style="background-color:#000"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              </ul>
+            </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+  </nav>
+</header>
+<!-- /Main Nav -->
+    <!-- /Main Nav -->
+
+    <!-- ABOUT -->
+    <section id="about">
+    <div class="container">
+        <header class="text-center">
+        <h1>ABOUT</h1>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
 
 
-							        <li><a href="/pages/contact.html">Contact</a></li>
-							        <li><a href="/pages/this-blog.html">This&nbsp;blog</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-			<!-- Container / End -->
-		</header>
-		<!-- Header / End -->
-		
-		<div id="content-wrapper">
-			<section id="titlebar">
-				<!-- Container -->
-				<div class="container">
-					<div class="sixteen columns">						
-						<nav id="breadcrumbs">
-							<ul>
-								<li>You are here:</li>
-								<li><a href="/">Home</a></li>
-<li>Articles by Ricardo Bürger Schalch</li>
-							</ul>
-						</nav>
-					</div>
 
-				</div>
-				<!-- Container / End -->
-			</section>
+        <!-- <article>
+        <div class="row text-left"> -->
 
-			<div class="container">
-	<div class="twelve alt columns">
-		<!-- Post -->
-		<article class="post medium">
-			<div class="twelve columns">
-				<section class="post-content">
-					<header class="meta">
-						<h2><a href="/python-vscode.html" rel="bookmark" title="Permalink to Visual Studio Code">Visual Studio&nbsp;Code</a></h2>
-						<ul>
-							<li>By <a href="/author/ricardo-burger-schalch.html">Ricardo Bürger Schalch</a></li>
-							<li>Seg 14 novembro 2016</li>
-							<li><a href="/category/Tools">Tools</a></li>
-						</ul>
-					</header>
-					<p>
-							<p>Vscode</p>
-	        		</p>
-					<a href="/python-vscode.html" class="button color">Read More</a>
-				</section>
-			</div>
-			<div class="clearfix"></div>
-		</article>
-		<!-- Post -->
-		<article class="post medium">
-			<div class="twelve columns">
-				<section class="post-content">
-					<header class="meta">
-						<h2><a href="/django-framework.html" rel="bookmark" title="Permalink to Django">Django</a></h2>
-						<ul>
-							<li>By <a href="/author/ricardo-burger-schalch.html">Ricardo Bürger Schalch</a></li>
-							<li>Sex 11 novembro 2016</li>
-							<li><a href="/category/Django">Django</a></li>
-						</ul>
-					</header>
-					<p>
-							<p>Introdução ao&nbsp;Django</p>
-	        		</p>
-					<a href="/django-framework.html" class="button color">Read More</a>
-				</section>
-			</div>
-			<div class="clearfix"></div>
-		</article>
-		<!-- Post -->
-		<article class="post medium">
-			<div class="twelve columns">
-				<section class="post-content">
-					<header class="meta">
-						<h2><a href="/requests.html" rel="bookmark" title="Permalink to Requests">Requests</a></h2>
-						<ul>
-							<li>By <a href="/author/ricardo-burger-schalch.html">Ricardo Bürger Schalch</a></li>
-							<li>Sex 11 novembro 2016</li>
-							<li><a href="/category/Libraries">Libraries</a></li>
-						</ul>
-					</header>
-					<p>
-							<h2>Requests</h2>
+            <!-- Passion -->
+        <!--  <div class="col-md-4">
+            <h3>Passion</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+            </div> -->
+
+
+            <!-- Precision -->
+            <!-- <div class="col-md-4">
+            <h3>Precision</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+            </div> -->
+
+
+            <!-- Simplicity -->
+            <!-- <div class="col-md-4">
+            <h3>Simplicity</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+            </div> -->
+
+        <!-- </div>
+        </article> -->
+
+    </div>
+    </section>
+    <!-- /ABOUT -->
+
+
+    <!-- BLOG -->
+    <section id="quick-blog" class="alternate">
+    <div class="container">
+
+        <header class="text-center">
+        <h1>BLOG</h1>
+        <p>RECENT ENTRIES</p>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <article>
+        <div class="row animate_fade_in">
+
+            <div class="col-md-4 quick-hover">
+                <div class="quick-item">
+                    <h4><a class="theme_link" href="/python-vscode.html">Visual Studio&nbsp;Code</a></h4>
+                <p><p>Vscode</p></p>
+                <a href="/python-vscode.html" class="btn btn-xs theme_link"><i class="fa fa-sign-out"></i> READ MORE</a>
+                </div>
+            </div>
+            <div class="col-md-4 quick-hover">
+                <div class="quick-item">
+                    <h4><a class="theme_link" href="/django-framework.html">Django</a></h4>
+                <p><p>Introdução ao&nbsp;Django</p></p>
+                <a href="/django-framework.html" class="btn btn-xs theme_link"><i class="fa fa-sign-out"></i> READ MORE</a>
+                </div>
+            </div>
+            <div class="col-md-4 quick-hover">
+                <div class="quick-item">
+                    <h4><a class="theme_link" href="/requests.html">Requests</a></h4>
+                <p><h2>Requests</h2>
 <hr />
-<p>Em&nbsp;breve!</p>
-	        		</p>
-					<a href="/requests.html" class="button color">Read More</a>
-				</section>
-			</div>
-			<div class="clearfix"></div>
-		</article>
+<p>Em&nbsp;breve!</p></p>
+                <a href="/requests.html" class="btn btn-xs theme_link"><i class="fa fa-sign-out"></i> READ MORE</a>
+                </div>
+            </div>
+ 
 
-	<!-- Pagination -->
-	<nav class="pagination">
-		<ul>
-			<li>
-			</li>
-			<!-- Page 1 / 1 -->
-		</ul>
-		<div class="clearfix"></div>
-	</nav>
-	</div>
+        </div>
+        </article>
 
-	<!-- Sidebar -->
-	<div class="four columns">
+        <div class="divider"><!-- lines divider --></div>
 
-		
-	</div>
-			</div>
-			<!-- Container / End -->
-		</div>
-		<!-- Content Wrapper / End -->
+        <article class="text-center" data-animation="bounceIn">
+        <a href="blog.html" class="plusNav" title="more from blog">+</a> 
+        </article>
+
+    </div>
+    </section>
+    <!-- /BLOG -->
+
+<!-- FOOTER -->
+<footer>
+
+  <!-- SCROOL TO TOP -->
+  <a href="#toTop" class="fa fa-arrow-up toTop"></a>
+
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 copyright">
+            rschalch&#39;s python blog
+            <br />2015 &copy; All Rights Reserved.
+        </div>
+
+        <div class="col-md-6 text-right">
+              <a href="https://twitter.com/rschalch" class="social fa fa-twitter" target="_blank"></a>
+              <a href="https://github.com/rschalch" class="social fa fa-github" target="_blank"></a>
+              <a href="https://www.facebook.com/ricardo.burgerschalch" class="social fa fa-facebook" target="_blank"></a>
+        </div>
+
+    </div>
+
+  </div>
+</footer>
+<!-- /FOOTER -->
 
 
-		<div id="footer-bottom">
-			<!-- Container -->
-			<div class="container">
-				<div class="eight columns">Blog powered by <a href="http://getpelican.com">Pelican</a></div>
-					<div class="eight columns">
-						<ul class="social-icons-footer">
-								<li>
-									<a href="https://twitter.com/rschalch" class="tooltip top" title="Twitter">
-										<i class="icon-twitter"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://github.com/rschalch" class="tooltip top" title="Github">
-										<i class="icon-github"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://www.facebook.com/ricardo.burgerschalch" class="tooltip top" title="Facebook">
-										<i class="icon-facebook"></i>
-									</a>
-								</li>
-							<li><a href="/feeds/all.atom.xml" class="tooltip top" title="RSS"><i class="icon-rss"></i></a></li>
-						</ul>
-					</div>
-			</div>
-			<!-- Container / End -->
-		</div>
-		<!-- Footer Bottom / End -->
-		
-	<!-- Javascripts -->
-	<script src="/theme/js/jquery.min.js"></script>
-	</body>
-</html>
+
+<!-- CORE FILES -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="/theme/js/masonry.js"></script>
+
+<!-- PLUGINS -->
+<script type="text/javascript" src="/theme/js/jquery.fitvids.min.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.appear.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.superslides.min.js"></script>
+<script type="text/javascript" src="/theme/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="/theme/js/holder.js"></script>
+<!-- delete on production -->
+
+<!-- js scripts -->
+<script async type="text/javascript" src="/theme/js/scripts.js"></script>
+
+<script type="text/javascript" src="/theme/js/ImageAutoResize.js"></script>
+<script type="text/javascript" src="/theme/js/application.js"></script>
+
+
+
+
+</body>
