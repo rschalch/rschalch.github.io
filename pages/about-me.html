@@ -1,172 +1,44 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <!-- Standard Meta -->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Ricardo Bürger Schalch" />
-        <meta name="description" content="O começo Olá, meu nome é Ricardo, sou desenvolvedor web desde 2003, quando comecei com simples programas geradores de html para atender o meu primeiro cliente. Tinha interesse pelo código, mas como era um primeiro projeto, conhecia pouco e havia uma urgência na sua conclusão, optei pelo caminho mais fácil ..." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Site Properities -->
+    <title>About&nbsp;me</title>
 
+    <meta name="description" content="">
 
-    <title>About&nbsp;me - rschalch's blog</title>
+    <meta property="og:site_name" content="rschalch's blog" />
+    <meta property="og:locale" content="en" />
 
-        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css" />
+    <meta property="og:title" content="rschalch's blog" />
+    <meta property="og:url" content=""/>
+    <meta property="og:description" content=" " />
+    <meta property="og:type" content="website" />
 
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/theme/css/pygments/native.css" rel="stylesheet" />
-    
-        <link href="/theme/css/typogrify.css" rel="stylesheet" />
-    <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="rschalch's blog">
+    <meta name="twitter:description" content="">
+    <!--meta name="twitter:image" content=""-->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Feeds -->
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="rschalch's blog ATOM Feed" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/custom.css">
 </head>
-<body data-spy="scroll" data-target="#scrollspy">
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper-small" class="twitchy-background">
-            <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
-                <li>
-        <a href="" title="rschalch's blog" class="collapsed">
-            <span class="glyphicon glyphicon-home"></span>
+<body>
+<div class="ui borderless fixed stackable main menu">
+    <div class="ui text container">
+        <a href="/" class="header item">
+            <img class="logo" src="/theme/images/logo.png">
+            rschalch's blog
         </a>
-    </li>
-                <li class="nav-divider"></li>
-                <li>
-        <a href="/archives.html" title="Recent Articles" class="collapsed">
-            <span class="glyphicon glyphicon-th-list"></span>
-        </a>
-    </li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-social-small" title="Social" class="collapsed">
-                        <i class="fa fa-users padding-small"></i>
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social-small" class="collapse ">
-                    <li>
-                        <a href="https://www.facebook.com/ricardo.burgerschalch" title="Facebook"><i class="fa fa-facebook-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/rschalch" title="Github"><i class="fa fa-github-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/rschalch" title="Twitter"><i class="fa fa-twitter-square fa-lg padding-small"></i></a>
-                    </li>
-                </ul></li>
-                <li class="nav-divider"></li>
-                <li>
-        <a href="#" title="Back to top" class="collapsed">
-            <span class="fa fa-arrow-up"></span>
-        </a>
-    </li>
-            </ul>
-        </div>
-        <div id="sidebar-wrapper" class="twitchy-background">
-            <ul id="accordion" class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="/">
-                            <span class="glyphicon glyphicon-home padding-small"></span>
-                            rschalch's blog
-                    </a>
-                </li>
-                    <li>
-                        <a href="/archives.html">
-                            <span class="glyphicon glyphicon-th-list padding-small"></span>
-                            Recent Articles
-                        </a>
-                    </li>
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-social">
-                        <i class="fa fa-users padding-small"></i>
-                        Contact
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social" class="sidebar_submenu collapse ">
-                    <li>
-                        <a href="https://www.facebook.com/ricardo.burgerschalch" title="Facebook">
-                            <i class="fa fa-facebook-square fa-lg padding-small"></i>
-                            Facebook
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/rschalch" title="Github">
-                            <i class="fa fa-github-square fa-lg padding-small"></i>
-                            Github
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/rschalch" title="Twitter">
-                            <i class="fa fa-twitter-square fa-lg padding-small"></i>
-                            Twitter
-                        </a>
-                    </li>
-                </ul></li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pages">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Pages
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-pages" class="sidebar_submenu collapse         in
-">
-                    <li class="active">
-                        <a href="/pages/about-me.html">
-                            <i class="fa fa-file-text padding-small"></i>
-                            About&nbsp;me
-                        </a>
-                    </li>
-                </ul></li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-categories">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Categories
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-categories" class="sidebar_submenu collapse ">
-                    <li >
-                        <a href="/category/articles.html">
-                            <i class="fa fa-folder-open padding-small"></i>
-                            Articles
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                </ul></li>
-                
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- open/close sidebar -->
-        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-            <span id="right-arrow" class="glyphicon glyphicon-chevron-right"  title="expand sidebar"></span>
-            <span id="left-arrow" class="glyphicon glyphicon-chevron-left" title="minimize sidebar"></span>
-        </a>
-       <!-- /open/close sidebar -->
+    </div>
+</div>
+    <h1>About&nbsp;me</h1>
+    
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-<div class="row">
-    <div class="col-lg-9">
-        <section id="content" class="body">
-            <h1 class="page-header">About&nbsp;me</h1>
-            <div class="entry-content">
-                <h2>O&nbsp;começo</h2>
+    <h2>O&nbsp;começo</h2>
 <p>Olá, meu nome é Ricardo, sou desenvolvedor web desde 2003, quando comecei com simples programas geradores de html para atender o meu primeiro cliente. Tinha interesse pelo código, mas como era um primeiro projeto, conhecia pouco e havia uma urgência na sua conclusão, optei pelo caminho mais fácil (e menos profissional). Para minha sorte, esse cliente gostou tanto do &#8220;meu&#8221; trabalho que teceu mil elogios. Foi nessa hora que senti que havia descoberto o caminho que iria seguir dali em diante. E a partir disso, entrei de cabeça no mundo da &#8220;construção de sites&#8221;, comecei pesquisar templates e encontrei os poderosos sites Flash, que dominavam as premiações da web na&nbsp;época.</p>
 <p>Ficava impressionado com todos aqueles designs avançados e efeitos elegantes, visuais e sonoros, e reparei que muitas das grandes empresas do planeta apostavam nessa tecnologia para a apresentação dos seus produtos. Conheci então o &#8220;Swishmax&#8221; um software que facilitava a construção desses sites porque oferecia uma interface muito mais simples para inserção de scripts prontos. Todos os meus sites eram então construídos com essa ferramenta, cada vez mais meus clientes gostavam do meu trabalho e isso aumentava ainda mais minha vontade de pesquisar e aprofundar na área. Nunca frequentei curso algum, sempre buscava a ajuda no bom coração das pessoas que disponibilizavam seu conhecimento através de sites, fóruns e livros. O Swishmax permitia que a lógica e o visual do site fossem implementados de forma muito simples. Não demorou para perceber que eu precisava partir para o Flash, software que pertencia à Macromedia na época e que permitia uma melhor utilização daquilo que viria a ser a minha verdadeira entrada no mundo do desenvolvimento: o&nbsp;Actionscript!</p>
 <h2>O&nbsp;código</h2>
@@ -176,30 +48,36 @@
 <h2>A decisão pelo&nbsp;melhor</h2>
 <p>Não estou dizendo a ninguém que uma seja superior à outra, são todas excelentes e merecem meu respeito, mas o que senti ao trabalhar com todas elas foi o seguinte. O <span class="caps">PHP</span> está bem amadurecido, mas muitas vezes seu código pode se tornar um pouco embaralhado. Pra quê aquele dólar na frente de suas variáveis? Isso sempre me incomodou. Além de tudo o salário para profissionais dessa área sempre foi considerado o mais baixo. Java? Ótima linguagem mas burocrática e um ecossistema vasto e complexo &#8230; C#: Como Java, muito poderoso, mas as melhores ferramentas são proprietárias, caras e ainda não atendem bem um sistema multiplataforma. Ruby: Sou um grande fã da linguagem e ainda vou acompanhá-lo de perto, mas profissionalmente parece ser pouco adotada por grandes corporações o que pode dificultar temporariamente o seu crescimento. Python&nbsp;&#8230;</p>
 <p>Simples, legível, objetivo, poderoso, expansivo, flexível, modular, free, &#8220;batteries included&#8221; (termo que se refere à sua standard library, um poderoso conjunto de bibliotecas), a melhor documentação que existe, comunidade gigante e ativa, solidamente estabelecido pelo mundo todo, usado nas áreas mais diversas, em pequenos e grandes projetos, de grandes corporações a pequenos empreendimentos. Uma área que está em contínua expansão e bem remunerada. Possui frameworks maravilhosas como Django. O que mais eu posso&nbsp;querer?</p>
+
+
+<div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <div class="ui stackable inverted divided grid">
+            <div class="eight wide column">
+                <h4 class="ui inverted header">Links</h4>
+                <div class="ui inverted link list">
+                    <a href="http://getpelican.com/" class="item">Pelican</a>
+                    <a href="http://python.org/" class="item">Python.org</a>
+                    <a href="http://jinja.pocoo.org/" class="item">Jinja2</a>
+                    <a href="#" class="item">You can modify those links in your config file</a>
+                </div>
             </div>
-        </section>
+            <div class="four wide column">
+                <h4 class="ui inverted header">Extra content</h4>
+                <p>Some content</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <img class="ui centered mini image" src="/theme/images/logo.png">
+        <div class="ui horizontal inverted small divided link list">
+            <a href="http://getpelican.com/" class="item">Pelican</a>
+            <a href="http://python.org/" class="item">Python.org</a>
+            <a href="http://jinja.pocoo.org/" class="item">Jinja2</a>
+            <a href="#" class="item">You can modify those links in your config file</a>
+        </div>
     </div>
 </div>
-<footer>
-    <hr>
-    <div class="row">
-        <div class="col-lg-9 text-center">
-            <p><small>
-                Built by <a href="http://docs.getpelican.com/en/latest">Pelican</a> / <a href="https://github.com/ingwinlu/pelican-twitchy">pelican-twitchy</a>
-                &middot;                    &copy; 2016 Ricardo Bürger Schalch
-            </small></p>
-        </div>
-    </div>
-</footer>            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-    </div>
-    <!-- /#wrapper -->
-    <!-- jQuery Version 1.11.2 -->
-    <script src="/theme/js/jquery-1.11.2.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/theme/js/bootstrap.min.js"></script>
-    <!-- twitchy Script -->
-    <script src="/theme/js/pelican_twitchy.min.js"></script>
+    <script type="text/javascript" src="/theme/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/theme/js/semantic.min.js"></script>
 </body>
 </html>
