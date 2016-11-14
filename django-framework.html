@@ -1,69 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>rschalch's blog</title>
-	<meta name="description" content="">
-	<meta name="author" content="Ricardo Bürger Schalch">
+  <head>
+        <meta charset="utf-8" />
+    <title>Django — rschalch's blog</title>
+    <link rel="stylesheet" type="text/css" href="/theme/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+    <link rel="shortcut icon" type="text/css" href="/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml"
+                           title="rschalch's blog — Flux Atom"
+                           href="/" /> 
+    <!--[if lte IE 8]><script src="/theme/js/html5shiv.js"></script><![endif]-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
 
-	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
-	<!--[if lt IE 9]>
-		<script src="/theme/html5.js"></script>
-	<![endif]-->
+    <meta name="author"   content="Ricardo Bürger Schalch" />
+    <meta name="keywords" content="django, python, web" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-head">
+        <h1>
+          <a href="/index.html">rschalch's blog</a>
+        </h1>
+      </header>
 
-	<!-- Styles -->
-	<link href="/theme/bootstrap.min.css" rel="stylesheet">
-	<link href="/theme/local.css" rel="stylesheet">
-	<link href="/theme/pygments.css" rel="stylesheet">
-
-	<!-- Feeds -->
-	<link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Atom Feed" />
-
-
-
-
-</head>
-<body>
-	<div class="topbar">
-	  <div class="topbar-inner">
-		<div class="container-fluid">
-		  <a class="brand" href="/">rschalch's blog</a>
-			<ul class="nav">
-						<li><a href="/pages/about-me.html">About&nbsp;me</a></li>
-					<li class="active"><a href="/category/articles.html">Articles</a></li>
-			</ul>
-			<p class="pull-right"><a href="/archives.html">[archives]</a> <a href="/tags.html">[tags]</a></p>
-		</div>
-	  </div>
-	</div>
-
-	<div class="container-fluid">
-	  <div class="sidebar">
-		<div class="well">
-			<h3>Blogroll</h3>
-			<ul>
-				<li><a href="http://getpelican.com/">Pelican</a></li>
-				<li><a href="http://python.org/">Python.org</a></li>
-				<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-			</ul>
-			<div class="social">
-			<h3>Social</h3>
-			<ul>
-				<li><a href="https://twitter.com/rschalch">Twitter</a></li>
-				<li><a href="https://github.com/rschalch">Github</a></li>
-				<li><a href="https://www.facebook.com/ricardo.burgerschalch">Facebook</a></li>
-			</ul>
-			</div>
-		</div>
-	  </div>
-	  <div class="content">
-	<div class='article'>
-		<div class="page-header"><h1>Django</h1></div>
-		<div class="well small">Permalink: <a class="more" href="/django-framework.html">2016-11-11 00:00:00-02:00</a>
-by <a class="url fn" href="/author/ricardo-burger-schalch.html">Ricardo Bürger Schalch </a>
- in <a href="/category/articles.html">Articles</a>
-tags: <a href="/tag/django.html">django</a> <a href="/tag/python.html">python</a> <a href="/tag/web.html">web</a> </div>
-		<div><h2>Django: Primeiras&nbsp;Impressões</h2>
+      <div class="page-content">
+     <article class="post content">
+      <header class="post-header">
+        <time datetime="2016-11-11T00:00:00-02:00" pubdate="pubdate">
+          Sex 11 novembro 2016
+        </time>
+        <h1>
+          <a rel="bookmark"
+             href="/django-framework.html"
+             title="Lien permanent vers «Django»">
+             Django
+          </a>
+        </h1>
+        <div class="meta">
+            Dans «<a href="/category/articles.html">Articles</a>» 
+            par <a href="/author/ricardo-burger-schalch.html">Ricardo Bürger Schalch</a>
+        </div>
+      </header>
+      <div class="post-content"> 
+        <h2>Django: Primeiras&nbsp;Impressões</h2>
 <hr />
 <p>Vou tentar expor os meus sentimentos sobre essa fantástica ferramenta, sob o ponto de vista de quem tem um longo background em frameworks <span class="caps">PHP</span>. É uma framework baseada em <span class="caps">MVC</span>, design pattern bastante conhecido por qualquer pessoa que tenha um mínimo de experiência em desenvolvimento. Já me sinto em casa visto que esse modelo é bastante utilizado, muito prático e que proporciona uma ótima organização para qualquer projeto. Em Django se utiliza a nomenclatura <strong><span class="caps">MTV</span></strong> (<em>Model Template View</em>), o que corresponderia respectivamente aos Models, Views e Controllers comumente usados por aí, e esse é um ponto em que se deve ter atenção, pois iniciantes podem facilmente confundir o conceito de&nbsp;View.</p>
 <p>Logo ao iniciar vemos que existe uma <span class="caps">CLI</span> que facilita uma série de processos, como por exemplo para criar um projeto: django-admin startproject . Podemos ainda criar e executar migrations, baseados nos nossos models. Isso não é uma novidade, já existe em várias frameworks, mas me soou ainda mais simples em Django. O que realmente me cativou foi a criação automática de um admin, recurso necessário para quase todo sistema existente. Aqui vemos como a comunidade Python possui uma perspectiva diferente e progressista. Você por acaso precisa provar a si mesmo que pode criar um admin a cada projeto que inicie? Esse não é um requerimento básico da maioria dos aplicativos de hoje? Então está aqui, prontinho pra usar, queremos que vocẽ use sua inteligência e inspiração apenas nas partes divertidas do sistema e queremos ajudar você a chegar lá da forma mais rápida possível! Ah, mas esse admin, sendo um sistema pronto, provavelmente vai vir com uma série de limitações, vamos ter que usar apenas o que eles nos dão e se quisermos modificar alguma coisa vai dar o maior trabalho&#8230; Errado! Tudo foi pensado e pesado, podemos inserir ou modificar várias características apenas inserindo simples propriedades nos models&nbsp;referentes.</p>
@@ -90,14 +69,48 @@ in a block
 </pre></div>
 
 
-<p>Markdown converts text to <abbr title="HyperText Markup Language"><span class="caps">HTML</span></abbr>.</p></div>
-	</div>
-		<footer>
-		  <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
-		  <p>&copy; Ricardo Bürger Schalch</p>
-		</footer>
-	  </div>
+<p>Markdown converts text to <abbr title="HyperText Markup Language"><span class="caps">HTML</span></abbr>.</p>
+      </div>
+      <footer class="post-footer">
+        <div class="meta">
+            Posté dans «<a href="/category/articles.html">Articles</a>» 
+            par <a href="/author/ricardo-burger-schalch.html">Ricardo Bürger Schalch</a><br />
+            Mots-clés:  #<a href="/tag/django.html">django</a> #<a href="/tag/python.html">python</a> #<a href="/tag/web.html">web</a>        </div>
+      </footer>
+    </article>
+      </div>
+    <aside class="page-sidebar">
+      <nav class="widget">
+      <h3>Site</h3>
+        <ul>
+          <li><a href="">Accueil</a></li>
+          <li><a href="/archives.html">Archives</a></li>
+          <li><a href="/tags.html">Mots-clés</a></li>
+          <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
+        </ul>
+      </nav>
 
-	</div>
-</body>
+      <nav class="widget">
+        <h3>Catégories</h3>
+        <ul>
+          <li><a href="/category/articles.html">Articles</a></li>
+        </ul>
+      </nav>
+
+      <nav class="widget">
+        <h3>Social</h3>
+        <ul>
+          <li><a href="Twitter">https://twitter.com/rschalch</a></li>
+          <li><a href="Github">https://github.com/rschalch</a></li>
+          <li><a href="Facebook">https://www.facebook.com/ricardo.burgerschalch</a></li>
+          <li><a href="/" rel="alternate">Flux Atom</a></li>
+        </ul>
+      </nav>
+    </aside> 
+
+      <footer class="page-footer">
+        <p> Powered by <a href="http://pelican.readthedocs.org">Pelican</a></p>
+      </footer>
+    </div>
+  </body>
 </html>
