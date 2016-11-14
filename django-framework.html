@@ -1,54 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Standard Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <!-- Site Properities -->
-    <title>Django</title>
+        <meta charset="utf-8" />
+    <title>rschalch's blog | Django</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Full Atom Feed" />
+    <link href="/feeds/articles.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's blog Categories Atom Feed" />
+    <link rel="stylesheet" href="/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/print.css" type="text/css" media="print" />
+    <meta name="generator" content="Pelican" />
 
-    <meta name="description" content="">
-
-    <meta property="og:site_name" content="rschalch's blog" />
-    <meta property="og:locale" content="en" />
-
-<meta property="og:title" content="Django" />
-<meta property="og:url" content="django-framework.html"/>
-<meta property="og:description" content=" " />
-<meta property="og:type" content="article" />
-<meta property="og:author" content="Ricardo Bürger Schalch" />
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="rschalch's blog">
-    <meta name="twitter:description" content="">
-    <!--meta name="twitter:image" content=""-->
-
-    <link rel="stylesheet" type="text/css" href="/theme/css/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="/theme/css/custom.css">
+    <meta name="keywords" content="django,python,web" />
 </head>
 <body>
-<div class="ui borderless fixed stackable main menu">
-    <div class="ui text container">
-        <a href="/" class="header item">
-            <img class="logo" src="/theme/images/logo.png">
-            rschalch's blog
-        </a>
-    </div>
-</div>
-<div class="ui text container center aligned article-top">
-    <h1 class="ui header article-huge">Django</h1>
-</div>
-<div class="ui text container tall stacked segment">
-    <div class="overlay">
-        <div class="ui labeled icon vertical menu">
-            <a class="item sharer" data-sharer="twitter" data-title="Django" data-url="/django-framework.html"><i class="twitter icon"></i> Tweet</a>
-            <a data-sharer="facebook" data-url="/django-framework.html" class="item sharer"><i class="facebook icon"></i> Share</a>
-            <a data-sharer="googleplus" data-url="/django-framework.html" class="item sharer"><i class="google plus icon"></i> Share</a>
-            <a class="item sharer" data-sharer="email" data-to="" data-title="Django" data-subject="Checkout this article!" data-url="/django-framework.html"><i class="mail icon"></i> E-mail</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/pages/about-me.html">About&nbsp;me</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="">rschalch's blog</a></h1>
         </div>
-    </div>
-    <h2>Django: Primeiras&nbsp;Impressões</h2>
+    </header>
+    <div id="wrapper">
+        <div id="content">            <h4 class="date">Nov 11, 2016</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/django-framework.html" rel="bookmark" title="Permanent Link to &quot;Django&quot;">Django</a>
+                </h2>
+
+                <h2>Django: Primeiras&nbsp;Impressões</h2>
 <hr />
 <p>Vou tentar expor os meus sentimentos sobre essa fantástica ferramenta, sob o ponto de vista de quem tem um longo background em frameworks <span class="caps">PHP</span>. É uma framework baseada em <span class="caps">MVC</span>, design pattern bastante conhecido por qualquer pessoa que tenha um mínimo de experiência em desenvolvimento. Já me sinto em casa visto que esse modelo é bastante utilizado, muito prático e que proporciona uma ótima organização para qualquer projeto. Em Django se utiliza a nomenclatura <strong><span class="caps">MTV</span></strong> (<em>Model Template View</em>), o que corresponderia respectivamente aos Models, Views e Controllers comumente usados por aí, e esse é um ponto em que se deve ter atenção, pois iniciantes podem facilmente confundir o conceito de&nbsp;View.</p>
 <p>Logo ao iniciar vemos que existe uma <span class="caps">CLI</span> que facilita uma série de processos, como por exemplo para criar um projeto: django-admin startproject . Podemos ainda criar e executar migrations, baseados nos nossos models. Isso não é uma novidade, já existe em várias frameworks, mas me soou ainda mais simples em Django. O que realmente me cativou foi a criação automática de um admin, recurso necessário para quase todo sistema existente. Aqui vemos como a comunidade Python possui uma perspectiva diferente e progressista. Você por acaso precisa provar a si mesmo que pode criar um admin a cada projeto que inicie? Esse não é um requerimento básico da maioria dos aplicativos de hoje? Então está aqui, prontinho pra usar, queremos que vocẽ use sua inteligência e inspiração apenas nas partes divertidas do sistema e queremos ajudar você a chegar lá da forma mais rápida possível! Ah, mas esse admin, sendo um sistema pronto, provavelmente vai vir com uma série de limitações, vamos ter que usar apenas o que eles nos dão e se quisermos modificar alguma coisa vai dar o maior trabalho&#8230; Errado! Tudo foi pensado e pesado, podemos inserir ou modificar várias características apenas inserindo simples propriedades nos models&nbsp;referentes.</p>
@@ -76,46 +62,28 @@ in a block
 
 
 <p>Markdown converts text to <abbr title="HyperText Markup Language"><span class="caps">HTML</span></abbr>.</p>
+                <div class="clear"></div>
 
-</div>
-
-<div class="ui inverted vertical footer segment">
-    <div class="ui center aligned container">
-        <div class="ui stackable inverted divided grid">
-            <div class="eight wide column">
-                <h4 class="ui inverted header">Links</h4>
-                <div class="ui inverted link list">
-                    <a href="http://getpelican.com/" class="item">Pelican</a>
-                    <a href="http://python.org/" class="item">Python.org</a>
-                    <a href="http://jinja.pocoo.org/" class="item">Jinja2</a>
-                    <a href="#" class="item">You can modify those links in your config file</a>
+                <div class="info">
+                    <a href="/django-framework.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/articles.html" rel="tag">Articles</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/django.html" class="tags">django</a>
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                    &nbsp;<a href="/tag/web.html" class="tags">web</a>
                 </div>
-            </div>
-            <div class="four wide column">
-                <h4 class="ui inverted header">Extra content</h4>
-                <p>Some content</p>
-            </div>
+            </article>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
         </div>
-        <div class="ui inverted section divider"></div>
-        <img class="ui centered mini image" src="/theme/images/logo.png">
-        <div class="ui horizontal inverted small divided link list">
-            <a href="http://getpelican.com/" class="item">Pelican</a>
-            <a href="http://python.org/" class="item">Python.org</a>
-            <a href="http://jinja.pocoo.org/" class="item">Jinja2</a>
-            <a href="#" class="item">You can modify those links in your config file</a>
-        </div>
+        <div class="clear"></div>
     </div>
-</div>
-    <script type="text/javascript" src="/theme/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/theme/js/semantic.min.js"></script>
-<script type="text/javascript" src="/theme/js/sharer.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('.overlay').visibility({
-        type: 'fixed',
-        offset: 80
-    });
-});
-</script>
 </body>
 </html>
