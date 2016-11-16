@@ -1,0 +1,34 @@
+{
+    "pages": [
+        {
+            "title": "Visual Studio Code", 
+            "text":"Visual Studio Code Em breve!", 
+            "tags": "Tools", 
+            "loc": "https://rschalch.github.io/python-vscode.html"
+        },
+        {
+            "title": "Django", 
+            "text":"Django Em breve!", 
+            "tags": "Django", 
+            "loc": "https://rschalch.github.io/django-framework.html"
+        },
+        {
+            "title": "Requests", 
+            "text":"Requests Em breve!", 
+            "tags": "Libraries", 
+            "loc": "https://rschalch.github.io/requests.html"
+        },
+        {
+            "title": "This blog", 
+            "text":"Olá meu nome é Ricardo e sou desenvolvedor web há 13 anos. Se estiver com tempo, paciência e curiosidade o suficiente para querer saber mais, clique aqui! Trabalhei com muitas tecnologias. Não sou nenhum expert, mas posso te ajudar a começar! Objetivo aqui: Fazer você ler menos e alcançar mais! Ser uma referẽncia e um guia rápido para todos os que estão começando com Python. Direto ao ponto, com clareza, no bullshit! Reunir o máximo de matérias para ajudar iniciantes a se sentirem confortáveis com a plataforma e suas ferramentas o mais rápido possível! Prometo não te encher com papo inútil e também tentar ao máximo não te deixar perdido no meio de algum tutorial, presumindo que você conheça tudo o que estárá sendo ensinado aqui.", 
+            "tags": "main", 
+            "loc": "https://rschalch.github.io/pages/this-blog.html"
+        },
+        {
+            "title": "Contact", 
+            "text":"var contactform = document.getElementById(&#39;contactform&#39;); contactform.setAttribute(&#39;action&#39;, &#39;//formspree.io/&#39; + &#39;ricardo.schalch&#39; + &#39;@&#39; + &#39;gmail&#39; + &#39;.&#39; + &#39;com&#39;);", 
+            "tags": "pages", 
+            "loc": "https://rschalch.github.io/pages/contact.html"
+        }        
+    ]
+}
