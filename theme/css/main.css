@@ -1,5 +1,5 @@
 html {
-  font: 400 14px / 20px "Oswald", "Helvetica Neue",Helvetica,Arial,sans-serif; }
+  font: 400 14px / 20px Helvetica,Arial,sans-serif; }
 
 a {
   color: #33b5e5; }
@@ -142,10 +142,3 @@ a {
 .mg-badges li {
   float: left;
   position: relative; }
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0; }
-
