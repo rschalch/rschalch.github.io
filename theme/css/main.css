@@ -9,8 +9,11 @@ a {
 .uk-navbar-brand {
   text-transform: uppercase; }
 
-.uk-article-title:hover {
-  text-decoration: none; }
+.uk-article-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em; }
+  .uk-article-title:hover {
+    text-decoration: none; }
 
 .uk-article-meta > a {
   color: #444; }
