@@ -9,7 +9,7 @@ a {
 .uk-navbar-brand {
   text-transform: uppercase; }
 
-.uk-article {
+.uk-article:hover {
   text-decoration: none; }
 
 .uk-article-meta > a {
