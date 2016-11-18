@@ -26,7 +26,7 @@
         },
         {
             "title": "Contact", 
-            "text":"var contactform = document.getElementById(&#39;contactform&#39;); contactform.setAttribute(&#39;action&#39;, &#39;//formspree.io/&#39; + &#39;ricardo.schalch&#39; + &#39;@&#39; + &#39;gmail&#39; + &#39;.&#39; + &#39;com&#39;);", 
+            "text":"Send var contactform = document.getElementById(&#39;contactform&#39;); contactform.setAttribute(&#39;action&#39;, &#39;//formspree.io/&#39; + &#39;ricardo.schalch&#39; + &#39;@&#39; + &#39;gmail&#39; + &#39;.&#39; + &#39;com&#39;);", 
             "tags": "pages", 
             "loc": "https://rschalch.github.io/pages/contact.html"
         }        
