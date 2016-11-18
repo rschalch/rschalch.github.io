@@ -72,7 +72,6 @@ a {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); }
 
 .uk-nav-header {
-  color: #FFD60D;
   font-family: "Open Sans", sans-serif; }
 
 .uk-nav-offcanvas .uk-nav-header {
@@ -89,7 +88,7 @@ a {
 .mg-brand {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6em;
-  color: white;
+  color: #FFD60D;
   text-decoration: none; }
   .mg-brand:hover {
     color: white; }
