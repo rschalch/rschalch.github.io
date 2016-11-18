@@ -9,11 +9,13 @@ a {
 .uk-navbar-brand {
   text-transform: uppercase; }
 
+.uk-article {
+  text-decoration: none; }
+
 .uk-article-meta > a {
   color: #444; }
   .uk-article-meta > a:hover {
-    color: #444;
-    text-decoration: none; }
+    color: #444; }
 
 .uk-article-meta > .uk-icon-comment {
   color: #444; }
