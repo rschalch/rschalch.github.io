@@ -19,6 +19,7 @@ a {
 
 .uk-article-title {
   color: #272A38;
+  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-size: 1.6em; }
   .uk-article-title:hover {
