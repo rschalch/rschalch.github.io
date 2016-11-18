@@ -73,7 +73,7 @@ a {
 
 .mg-brand {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   color: white;
   text-decoration: none; }
   .mg-brand:hover {
@@ -82,7 +82,7 @@ a {
     .mg-brand {
       padding: 0;
       max-width: 100%;
-      font-size: 2em; } }
+      font-size: 1.5em; } }
 
 .mg-tagline {
   font-family: "Open Sans", sans-serif;
