@@ -11,7 +11,8 @@ a {
 
 .uk-panel-title {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4em; }
 
 .uk-heading-large {
   font-family: "Open Sans", sans-serif;
