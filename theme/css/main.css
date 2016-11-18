@@ -9,6 +9,9 @@ a {
 .uk-navbar-brand {
   text-transform: uppercase; }
 
+.uk-panel-title {
+  font-family: "Open Sans", sans-serif; }
+
 .uk-heading-large {
   font-family: "Open Sans", sans-serif;
   font-size: 1.8em; }
