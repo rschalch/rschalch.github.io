@@ -2,7 +2,7 @@
     "pages": [
         {
             "title": "Visual Studio Code", 
-            "text":"O melhor e mais leve editor", 
+            "text":"Porquê Visual Studio Code?", 
             "tags": "Tools", 
             "loc": "https://rschalch.github.io/python-vscode.html"
         },
