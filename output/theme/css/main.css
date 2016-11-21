@@ -2,12 +2,17 @@ html {
   font: 400 14px / 20px Helvetica,Arial,sans-serif; }
 
 a {
-  color: #33b5e5; }
+  color: #E8730C; }
   a:hover {
-    color: #0099cc; }
+    color: #b85b09; }
 
 .uk-navbar-brand {
   text-transform: uppercase; }
+
+.uk-panel-title {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em; }
 
 .uk-heading-large {
   font-family: "Open Sans", sans-serif;
@@ -15,6 +20,7 @@ a {
 
 .uk-article-title {
   color: #272A38;
+  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-size: 1.6em; }
   .uk-article-title:hover {
@@ -44,10 +50,10 @@ a {
   color: #444; }
 
 .uk-nav-side > li.uk-active > a {
-  background: #28D1B2; }
+  background: #E8730C; }
 
 .uk-pagination > .uk-active > span {
-  background: #28D1B2; }
+  background: #E8730C; }
 
 .uk-icon-medium {
   margin-right: 0.3em; }

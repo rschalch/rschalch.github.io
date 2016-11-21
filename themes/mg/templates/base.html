@@ -116,16 +116,16 @@
             </div>
 
             <div class="uk-panel uk-panel-box">
-                <h3 class="uk-panel-title">Receive Updates</h3>
-                <a rel="alternate" type="application/atom+xml" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" class="mg-feed"><i class="uk-icon-rss uk-icon-medium"></i> ATOM</a>
+                <h5 class="uk-panel-title">Receive Updates</h5>
+                <a rel="alternate" type="application/atom+xml" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" class="mg-feed"><i class="uk-icon-rss uk-icon-small"></i> ATOM</a>
             </div>
             
             {% if SOCIAL %}
             <div class="uk-panel uk-panel-box">
-                <h3 class="uk-panel-title">Contacts</h3>
+                <h5 class="uk-panel-title">Contacts</h5>
                 {% for icon, link in SOCIAL %}
                 <a class="mg-icon-link" href="{{ link }}">
-                    <i class="uk-icon-{{ icon }} uk-icon-medium"></i>
+                    <i class="uk-icon-{{ icon }} uk-icon-small"></i>
                 </a>
                 {% endfor %}
             </div>
@@ -140,7 +140,7 @@
 </main>
 
 <footer class="mg-footer">
-    <div class="uk-container uk-container-center uk-text-center">
+    <div class="uk-container uk-container-center">
 
         <div class="mg-icons-small uk-subnav uk-visible-small">
             <li><a rel="alternate" type="application/atom+xml" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" class="uk-icon-button uk-icon-rss"></a></li>
@@ -155,7 +155,7 @@
 
         <div class="mg-author uk-panel">
             <p>{{ FOOTER }}</p>
-            <p>Powered by <a href="http://blog.getpelican.com">Pelican</a>.<br class="uk-visible-small"> Theme RBS based on  <a href="https://github.com/lucachr/pelican-mg">mg</a> by <a href="https://github.com/lucachr">Luca Chiricozzi</a>.</p>
+            <p>Powered by <a href="https://www.python.org">Python</a> and <a href="http://blog.getpelican.com">Pelican</a>.<br class="uk-visible-small"> Theme RBS based on  <a href="https://github.com/lucachr/pelican-mg">mg</a> by <a href="https://github.com/lucachr">Luca Chiricozzi</a>.</p>
         </div>
     </div> 
 </footer>

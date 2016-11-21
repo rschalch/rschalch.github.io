@@ -31,9 +31,9 @@ LINKS = (('Python.org', 'http://python.org/'),
 
 # Social widget
 SOCIAL = (
-    ('Twitter', 'https://twitter.com/rschalch'),
-    ('Github', 'https://github.com/rschalch'),
-    ('Facebook', 'https://www.facebook.com/ricardo.burgerschalch'),)
+    ('twitter', 'https://twitter.com/rschalch'),
+    ('github', 'https://github.com/rschalch'),
+    ('facebook', 'https://www.facebook.com/ricardo.burgerschalch'),)
 
 DEFAULT_PAGINATION = 10
 

@@ -9,7 +9,9 @@ $mailBlue: #059;
 $textGrey: #444;
 $ancorBase: #33b5e5;
 $ancorOver: #0099cc;
+
 $myblue: #272A38;
+$myorange: #E8730C;
 
 // Base style
 
@@ -18,9 +20,9 @@ html {
 }
 
 a {
-    color: $ancorBase;
+    color: $myorange;
     &:hover {
-        color: $ancorOver;
+        color: darken($myorange, 10%);
     }
 }
 
@@ -28,6 +30,14 @@ a {
 
 .uk-navbar-brand {
     text-transform: uppercase;
+}
+
+.uk-panel-title {
+    text-transform: uppercase;
+    font: {
+        family: "Open Sans", sans-serif;
+        size: 0.9em;
+    }
 }
 
 .uk-heading-large {
@@ -40,6 +50,7 @@ a {
 
 .uk-article-title {
     color: $myblue;
+    text-transform: uppercase;
     font: {
         family: "Open Sans", sans-serif;
         size: 1.6em;
@@ -85,11 +96,11 @@ a {
 }
 
 .uk-nav-side > li.uk-active > a {
-    background: $accentGreen;
+    background: $myorange;
 }
 
 .uk-pagination>.uk-active>span {
-    background: $accentGreen;   
+    background: $myorange;   
 }
 
 .uk-icon-medium {
