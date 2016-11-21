@@ -2,7 +2,7 @@
     "pages": [
         {
             "title": "Visual Studio Code", 
-            "text":"Porquê Visual Studio Code?", 
+            "text":"Porquê Visual Studio Code? Tendo usado Python extensivamente em todos os famosos editores do mercado, resolvi escrever esse artigo para ajudar os iniciantes (ou talvez aqueles que não estejam satisfeitos o suficiente) a escolherem a sua principal ferramenta de trabalho.", 
             "tags": "Tools", 
             "loc": "https://rschalch.github.io/python-vscode.html"
         },
