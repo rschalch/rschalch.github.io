@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>rschalch's</title><link href="https://rschalch.github.io/" rel="alternate"></link><link href="https://rschalch.github.io/feeds/all.atom.xml" rel="self"></link><id>https://rschalch.github.io/</id><updated>2016-11-14T00:00:00-02:00</updated><entry><title>Como escolher o seu editor</title><link href="https://rschalch.github.io/escolha-seu-editor.html" rel="alternate"></link><published>2016-11-14T00:00:00-02:00</published><updated>2016-11-14T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-14:escolha-seu-editor.html</id><summary type="html">&lt;h2&gt;Simplesmente uma escolha&amp;nbsp;pessoal?&lt;/h2&gt;
-&lt;p&gt;Tendo usado Python extensivamente em todos os famosos editores do mercado, resolvi escrever esse artigo para ajudar os iniciantes (ou talvez aqueles que não estejam satisfeitos o suficiente) a escolherem a sua principal ferramenta de trabalho. Apesar de algumas pessoas verem esse assunto como algo sem muita importância, vou mostrar como ele pode afetar os nossos resultados. E como critérios dessa escolha adotei os seguintes&amp;nbsp;parâmetros:&lt;/p&gt;
+&lt;p&gt;Esse assunto nem sempre é tratado com a devida atenção, mas resolvi escrever esse artigo para ajudar os iniciantes (ou talvez aqueles que não estejam satisfeitos o suficiente)a escolherem a sua principal ferramenta de&amp;nbsp;trabalho.&lt;/p&gt;
+&lt;p&gt;Quando estava iniciando em programação, muitas pessoas me diziam: &amp;#8220;Deixa isso de lado e parte para o código de uma vez, você tá perdendo tempo com coisas sem importância&amp;#8221;. E isso sempre me soou estranho porque eu sabia que teria de passar provavelmente de 70% a 90% de todas as minhas horas de trabalho junto a essa&amp;nbsp;ferramenta.&lt;/p&gt;
+&lt;p&gt;E com o decorrer do tempo comprovei que um bom conjunto de ferramentas aliado a um workflow ágil pode reduzir não apenas o tempo do seu trabalho, mas também o stress com tarefas repetitivas, entre várias coisas e inclusive te levar a uma maior satisfação por obter resultados mais&amp;nbsp;rápidos.&lt;/p&gt;
+&lt;p&gt;Tendo usado Python extensivamente em todos os famosos editores do mercado. E como critérios dessa escolha adotei os seguintes&amp;nbsp;parâmetros:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Leveza&lt;/li&gt;
+&lt;li&gt;Leveza e&amp;nbsp;Estabilidade&lt;/li&gt;
 &lt;li&gt;Performance&lt;/li&gt;
 &lt;li&gt;Ferramentas&amp;nbsp;integradas&lt;/li&gt;
 &lt;li&gt;Facilidade de&amp;nbsp;uso&lt;/li&gt;
-&lt;li&gt;Manutenção da&amp;nbsp;ferramenta&lt;/li&gt;
+&lt;li&gt;Manutenção&lt;/li&gt;
 &lt;li&gt;Documentação e&amp;nbsp;Exemplos&lt;/li&gt;
 &lt;li&gt;Comunidade&lt;/li&gt;
 &lt;li&gt;Plugins&lt;/li&gt;
+&lt;li&gt;Preço&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Abaixo seguem minhas impressões sobre os&amp;nbsp;melhores:&lt;/p&gt;
 &lt;p&gt;&lt;span class="editor-icon"&gt;&lt;img alt="Pycharm" src="images/pycharm.png" title="Pycharm" /&gt;&lt;/span&gt;&lt;/p&gt;
