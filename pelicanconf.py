@@ -7,6 +7,7 @@ SITENAME = "rschalch's"
 ALT_NAME = SITENAME + " python blog"
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Sao_Paulo'
 
