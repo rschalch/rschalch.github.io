@@ -88,18 +88,18 @@
             
             <div class="uk-panel uk-panel-box">
                 <form class="uk-search" action="search.html" data-uk-search>
-                    <input class="uk-search-field tipue_search" type="search" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search...">
+                    <input class="uk-search-field tipue_search" type="search" name="q" id="tipue_search_input" autocomplete="off" placeholder="Pesquisa...">
                 </form>
             </div>
 
             <div class="uk-panel uk-panel-box">
                 <ul class="uk-nav uk-nav-side">
-                    <li class="uk-nav-header">Categories</li>
+                    <li class="uk-nav-header">Categorias</li>
                     {% for cat, _ in categories %}
                     <li {% if cat == category %}class="uk-active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                     {% endfor %}
                     {% if DISPLAY_PAGES_ON_MENU != False %}
-                    <li class="uk-nav-header">Pages</li>
+                    <li class="uk-nav-header">Páginas</li>
                     
                     {% for p in PAGES %}
                     <li {% if p == page %}class="uk-active"{% endif %}>
@@ -115,13 +115,13 @@
             </div>
 
             <div class="uk-panel uk-panel-box">
-                <h5 class="uk-panel-title">Receive Updates</h5>
+                <h5 class="uk-panel-title">Atualizações</h5>
                 <a rel="alternate" type="application/atom+xml" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" class="mg-feed"><i class="uk-icon-rss uk-icon-small"></i> ATOM</a>
             </div>
             
             {% if SOCIAL %}
             <div class="uk-panel uk-panel-box">
-                <h5 class="uk-panel-title">Contacts</h5>
+                <h5 class="uk-panel-title">Contatos</h5>
                 {% for icon, link in SOCIAL %}
                 <a class="mg-icon-link" href="{{ link }}">
                     <i class="uk-icon-{{ icon }} uk-icon-small"></i>
@@ -153,8 +153,8 @@
         </div>
 
         <div class="mg-author uk-panel">
-            <p>{{ FOOTER }}</p>
-            <p>Powered by <a href="https://www.python.org">Python</a> and <a href="http://blog.getpelican.com">Pelican</a>.<br class="uk-visible-small"> Theme RBS based on  <a href="https://github.com/lucachr/pelican-mg">mg</a> by <a href="https://github.com/lucachr">Luca Chiricozzi</a>.</p>
+            {{ FOOTER }}<br>
+            Powered by <a href="https://www.python.org">Python</a> and <a href="http://blog.getpelican.com">Pelican</a>.<br class="uk-visible-small"> Theme RBS based on  <a href="https://github.com/lucachr/pelican-mg">mg</a> by <a href="https://github.com/lucachr">Luca Chiricozzi</a>.
         </div>
     </div> 
 </footer>
@@ -167,12 +167,12 @@
         </form>
 
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-            <li class="uk-nav-header">Categories</li>
+            <li class="uk-nav-header">Categorias</li>
             {% for cat, _ in categories %}
             <li {% if cat == category %}class="uk-active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
             {% endfor %}
             {% if DISPLAY_PAGES_ON_MENU != False %}
-            <li class="uk-nav-header">Pages</li>        
+            <li class="uk-nav-header">Páginas</li>        
             {% for p in PAGES %}
             <li {% if p == page %}class="uk-active"{% endif %}>
                 <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>

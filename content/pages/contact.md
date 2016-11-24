@@ -1,4 +1,4 @@
-Title: Contact
+Title: Contato
 page-order: 2
 
 <form id="contactform" class="uk-form" method="POST">
