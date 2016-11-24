@@ -6,6 +6,10 @@ a {
   a:hover {
     color: #b85b09; }
 
+code {
+  color: green;
+  background-color: #DDD; }
+
 .uk-navbar-brand {
   text-transform: uppercase; }
 
