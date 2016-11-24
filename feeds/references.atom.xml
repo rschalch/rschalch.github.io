@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>rschalch's</title><link href="https://rschalch.github.io/" rel="alternate"></link><link href="https://rschalch.github.io/feeds/references.atom.xml" rel="self"></link><id>https://rschalch.github.io/</id><updated>2016-11-24T00:00:00-02:00</updated><entry><title>Zen of Python</title><link href="https://rschalch.github.io/zen-of-python.html" rel="alternate"></link><published>2016-11-24T00:00:00-02:00</published><updated>2016-11-24T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-24:zen-of-python.html</id><summary type="html">&lt;h2&gt;The Zen of&amp;nbsp;Python&lt;/h2&gt;
-&lt;p&gt;Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren&amp;#8217;t special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one&amp;#8212; and preferably only one &amp;#8212;obvious way to do it.
-Although that way may not be obvious at first unless you&amp;#8217;re Dutch.
-Now is better than never.
-Although never is often better than &lt;em&gt;right&lt;/em&gt; now.
-If the implementation is hard to explain, it&amp;#8217;s a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea &amp;#8212; let&amp;#8217;s do more of&amp;nbsp;those!&lt;/p&gt;</summary><category term="references"></category></entry></feed>
+&lt;p&gt;Beautiful is better than&amp;nbsp;ugly.&lt;/p&gt;
+&lt;p&gt;Explicit is better than&amp;nbsp;implicit.&lt;/p&gt;
+&lt;p&gt;Simple is better than&amp;nbsp;complex.&lt;/p&gt;
+&lt;p&gt;Complex is better than&amp;nbsp;complicated.&lt;/p&gt;
+&lt;p&gt;Flat is better than&amp;nbsp;nested.&lt;/p&gt;
+&lt;p&gt;Sparse is better than&amp;nbsp;dense.&lt;/p&gt;
+&lt;p&gt;Readability&amp;nbsp;counts.&lt;/p&gt;
+&lt;p&gt;Special cases aren&amp;#8217;t special enough to break the&amp;nbsp;rules.&lt;/p&gt;
+&lt;p&gt;Although practicality beats&amp;nbsp;purity.&lt;/p&gt;
+&lt;p&gt;Errors should never pass&amp;nbsp;silently.&lt;/p&gt;
+&lt;p&gt;Unless explicitly&amp;nbsp;silenced.&lt;/p&gt;
+&lt;p&gt;In the face of ambiguity, refuse the temptation to&amp;nbsp;guess.&lt;/p&gt;
+&lt;p&gt;There should be one&amp;#8212; and preferably only one &amp;#8212;obvious way to do&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;Although that way may not be obvious at first unless you&amp;#8217;re&amp;nbsp;Dutch.&lt;/p&gt;
+&lt;p&gt;Now is better than&amp;nbsp;never.&lt;/p&gt;
+&lt;p&gt;Although never is often better than &lt;em&gt;right&lt;/em&gt;&amp;nbsp;now.&lt;/p&gt;
+&lt;p&gt;If the implementation is hard to explain, it&amp;#8217;s a bad&amp;nbsp;idea.&lt;/p&gt;
+&lt;p&gt;If the implementation is easy to explain, it may be a good&amp;nbsp;idea.&lt;/p&gt;
+&lt;p&gt;Namespaces are one honking great idea &amp;#8212; let&amp;#8217;s do more of&amp;nbsp;those!&lt;/p&gt;</summary><category term="references"></category></entry></feed>
