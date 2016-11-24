@@ -6,9 +6,9 @@ a {
   a:hover {
     color: #b85b09; }
 
-code {
-  color: green !important;
-  background-color: #DDD; }
+:not(pre) code {
+  color: green;
+  background-color: #EEE; }
 
 .uk-navbar-brand {
   text-transform: uppercase; }
