@@ -7,8 +7,8 @@ a {
     color: #b85b09; }
 
 :not(pre) code {
-  color: green;
-  background-color: #EEE;
+  color: white;
+  background-color: black;
   padding: 3px; }
 
 .uk-navbar-brand {
