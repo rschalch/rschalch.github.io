@@ -7,7 +7,7 @@ a {
     color: #b85b09; }
 
 code {
-  color: green;
+  color: green !important;
   background-color: #DDD; }
 
 .uk-navbar-brand {
