@@ -14,7 +14,7 @@
         },
         {
             "title": "Django - Aula 01 - Iniciando seu projeto", 
-            "text":"Sobre a Django framework Django é a principal e mais conhecida framework Python nos dias atuais. Sua filosofia é baseada no conceito de *[RAD]: Rapid Application Development", 
+            "text":"Sobre a Django framework Django é a principal e mais conhecida framework Python nos dias atuais. Sua filosofia é baseada no conceito de [RAD]", 
             "tags": "Django", 
             "loc": "https://rschalch.github.io/django-framework-aula-01.html"
         },
