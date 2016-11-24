@@ -9,7 +9,7 @@ a {
 :not(pre) code {
   color: #E8730C;
   background-color: #EEE;
-  padding: 4px 2px; }
+  padding: 2px 4px; }
 
 .uk-navbar-brand {
   text-transform: uppercase; }
