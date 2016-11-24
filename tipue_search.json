@@ -13,10 +13,10 @@
             "loc": "https://rschalch.github.io/escolha-seu-editor.html"
         },
         {
-            "title": "Django", 
-            "text":"Django Em breve!", 
+            "title": "Django - Aula 01 - Iniciando seu projeto", 
+            "text":"Sobre a Django framework Django é a principal e mais conhecida framework Python nos dias atuais. Sua filosofia é baseada no conceito de *[RAD]: Rapid Application Development", 
             "tags": "Django", 
-            "loc": "https://rschalch.github.io/django-framework.html"
+            "loc": "https://rschalch.github.io/django-framework-aula-01.html"
         },
         {
             "title": "Requests", 
