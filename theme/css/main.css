@@ -8,7 +8,8 @@ a {
 
 :not(pre) code {
   color: green;
-  background-color: #EEE; }
+  background-color: #EEE;
+  padding: 2px; }
 
 .uk-navbar-brand {
   text-transform: uppercase; }
