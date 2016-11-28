@@ -105,7 +105,27 @@ $ virtualenv -p usr/bin/python3 venv
 <h2>5. Desativando o&nbsp;ambiente</h2>
 <p>Terminamos de trabalhar no projeto, então podemos desativar o ambiente para que ele nao seja poluído com instalações que não sejam pertinentes a&nbsp;ele:</p>
 <div class="highlight"><pre><span></span>$ deactivate
-</pre></div></section>
+</pre></div>
+
+
+<p>Para excluir o ambiente definitivamente basta deletarmos a pasta venv pois tudo que foi instalado está dentro&nbsp;dela.</p>
+<h2>6.&nbsp;Dicas</h2>
+<p>Existem tarefas comuns que fazem parte da nossa rotina enquanto trabalhamos com os virtualenvs. Os comandos seguintes exigem que o ambiente virtual esteja funcionando (ativado). Por exemplo, para sabermos quais pacotes estão instalados dentro do ambiente, basta&nbsp;digitarmos:</p>
+<div class="highlight"><pre><span></span>$ pip freeze
+</pre></div>
+
+
+<p>Outra coisa bastante comum é criar um arquivo chamado &#8220;requirements.txt&#8221;, o qual especifica quais são as bibliotecas que estão instaladas no ambiente. Criar esse arquivo é muito&nbsp;fácil:</p>
+<div class="highlight"><pre><span></span>$ pip freeze &gt; requirements.txt
+</pre></div>
+
+
+<p>Assim, quando outra pessoa do time for replicar o ambiente em sua máquina, tudo que ela precisará fazer é criar esse ambiente e instalar as bibliotecas que ele exige com o seguinte&nbsp;comando:</p>
+<div class="highlight"><pre><span></span>$ pip install -r requirements.txt
+</pre></div>
+
+
+<p>A opção &#8220;-r&#8221; especifica quais são os requerimentos do ambiente, os quais estão listados no arquivo&nbsp;requirements.txt.</p></section>
         <hr class="uk-article-divider">
     </article>
 
