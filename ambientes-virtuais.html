@@ -76,13 +76,13 @@
         <section itemprop="articleBody"><h2>Conceito e importância dos ambientes&nbsp;virtuais</h2>
 <p>Virtualenvs são ambientes Python isolados dentro do sistema. Muitas distribuições Linux vem com uma instalação Python padrão e atualmente a mais usada é a 2.7. Acontece que nem sempre essa instalação é a mais apropriada para nossos projetos. Ainda mais hoje que vivemos em plena transição para o Python 3. E quando cada um de nossos projetos precisa de uma versão diferente do Python ou de suas bibliotecas? Ainda, e se o ambiente de produção possui uma versão&nbsp;específica?</p>
 <p>Para qualquer desenvolvedor isso seria uma situação muito complicada, tanto a nível de desenvolvimento, organização ou mesmo em se tratando de depuração de erros e testes. Claro que uma plataforma avançada e robusta como a nossa não deixaria de ter uma solução elegante para esses tipos de problemas. Apresentamos os ambientes virtuais, mais conhecidos como&nbsp;&#8220;virtualenvs&#8221;.</p>
-<h3>1. Instalando o pacote&nbsp;virtualenv</h3>
+<h2>1. Instalando o pacote&nbsp;virtualenv</h2>
 <p>O Python possui uma biblioteca específica para a criação desses ambientes separados e para instalar esse pacote&nbsp;basta:</p>
 <div class="highlight"><pre><span></span>$ pip install virtualenv
 </pre></div>
 
 
-<h3>2. Criando os ambiente&nbsp;virtual</h3>
+<h2>2. Criando os ambiente&nbsp;virtual</h2>
 <p>Agora que o pacote virtualenv foi instalado podemos começar a criar ambientes virtuais. É possível instalar ambientes em qualquer parte do nosso sistema, mas existem duas práticas mais usadas: Instalar no mesmo diretório do projeto ou ter uma pasta específica do sistema para armazená-los. Vamos criar um ambiente virtual com uma instalação para Python 3 dentro do diretório do nosso projeto, em uma pasta chamada &#8220;venv&#8221; (pode-se dar qualquer nome para ela, mas com a boa prática de evitar maiúsculas, caracteres especiais e&nbsp;espaços)</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">cd</span> pasta_do_meu_projeto
 $ virtualenv -p usr/bin/python3 venv
@@ -90,7 +90,7 @@ $ virtualenv -p usr/bin/python3 venv
 
 
 <p>O último comando acima é explicado da seguinte forma: usando o comando virtualenv e a opção &#8220;-p&#8221; para especificar qual interpretador python (no caso o Python 3 que está localizado em usr/bin/python3), crie o ambiente virtual chamado&nbsp;&#8220;venv&#8221;</p>
-<h3>3. Ativando o ambiente&nbsp;virtual</h3>
+<h2>3. Ativando o ambiente&nbsp;virtual</h2>
 <p><strong>Importante</strong>: antes de começar a trabalhar nesse ambiente precisamos ativá-lo com o seguinte&nbsp;comando:</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">source</span> venv/bin/activate
 </pre></div></section>
