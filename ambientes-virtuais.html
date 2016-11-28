@@ -77,14 +77,14 @@
 <p>Virtualenvs são ambientes Python isolados dentro do sistema. Muitas distribuições Linux vem com uma instalação Python padrão e atualmente a mais usada é a 2.7. Acontece que nem sempre essa instalação é a mais apropriada para nossos projetos. Ainda mais hoje que vivemos em plena transição para o Python 3. E quando cada um de nossos projetos precisa de uma versão diferente do Python ou de suas bibliotecas? Ainda, e se o ambiente de produção possui uma versão&nbsp;específica?</p>
 <p>Para qualquer desenvolvedor isso seria uma situação muito complicada, tanto a nível de desenvolvimento, organização ou mesmo em se tratando de depuração de erros e testes. Claro que uma plataforma avançada e robusta como a nossa não deixaria de ter uma solução elegante para esses tipos de problemas. Apresentamos os ambientes virtuais, mais conhecidos como&nbsp;&#8220;virtualenvs&#8221;.</p>
 <p>O Python possui uma biblioteca específica para a criação desses ambientes separados e para instalar esse pacote&nbsp;basta:</p>
-<div class="highlight"><pre><span></span>pip install virtualenv
+<div class="highlight"><pre><span></span>$ pip install virtualenv
 </pre></div>
 
 
 <p>Vamos agora criar um ambiente virtual com uma instalação para Python 3. Podemos instalar esse ambiente em qualquer parte do nosso sistema, mas existem duas práticas mais usadas:
 Instalar no mesmo diretório do projeto ou ter uma pasta específica do sistema para&nbsp;armazená-los.</p>
-<div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">meu_projeto</span>
-<span class="n">virtualenv</span> <span class="n">venv</span>
+<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> pasta_do_meu_projeto
+$ virtualenv venv
 </pre></div></section>
         <hr class="uk-article-divider">
     </article>
