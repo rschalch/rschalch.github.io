@@ -81,11 +81,13 @@
 </pre></div>
 
 
-<p>Vamos agora criar um ambiente virtual com uma instalação para Python 3. Podemos instalar esse ambiente em qualquer parte do nosso sistema, mas existem duas práticas mais usadas:
-Instalar no mesmo diretório do projeto ou ter uma pasta específica do sistema para&nbsp;armazená-los.</p>
+<p>Agora que o pacote virtualenv foi instalado podemos começar a criar ambientes virtuais. É possível instalar ambientes em qualquer parte do nosso sistema, mas existem duas práticas mais usadas: Instalar no mesmo diretório do projeto ou ter uma pasta específica do sistema para armazená-los. Vamos criar um ambiente virtual com uma instalação para Python 3 dentro do diretório do nosso projeto, em uma pasta chamada &#8220;venv&#8221; (pode-se dar qualquer nome para ela, mas com a boa prática de evitar maiúsculas, caracteres especiais e&nbsp;espaços)</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">cd</span> pasta_do_meu_projeto
-$ virtualenv venv
-</pre></div></section>
+$ virtualenv -p usr/bin/python3 venv
+</pre></div>
+
+
+<p>O último comando acima é explicado da seguinte forma: usando o comando virtualenv e a opção &#8220;-p&#8221; para especificar qual interpretador python, no caso o Python 3, que está localizado em &#8220;usr/bin/python3&#8221;, cria o ambiente virtual chamado&nbsp;&#8220;venv&#8221;</p></section>
         <hr class="uk-article-divider">
     </article>
 
