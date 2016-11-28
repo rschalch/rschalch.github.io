@@ -6,9 +6,9 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Ambientes Virtuais</title>
+<title>Django - Aula 02 - Criando o projeto</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Conceito e importância dos ambientes virtuais Virtualenvs são ambientes Python isolados dentro do sistema. Muitas distribuições Linux vem com uma instalação Python padrão e atualmente a mais usada é a 2.7. Acontece que nem sempre essa instalação é a mais apropriada para nossos projetos. Ainda mais hoje que vivemos ...">
+<meta name="description" content="Criando seu primeiro projeto Django">
 <link rel="shortcut icon" href="https://rschalch.github.io/" type="">
 <meta name="author" content="Ricardo Bürger Schalch">
 <meta name="copyright" content="Ricardo Bürger Schalch">
@@ -16,17 +16,19 @@
 <meta name="twitter:site" content="@" />
 <meta property="og:site_name" content="rschalch's" />
 
-<meta property="og:title" content="Ambientes&nbsp;virtuais" />
+<meta property="og:title" content="Django - aula 02 - criando o&nbsp;projeto" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://rschalch.github.io/ambientes-virtuais.html" />
-<meta name="twitter:title" content="Ambientes&nbsp;virtuais" />
-<meta name="twitter:url" content="https://rschalch.github.io/ambientes-virtuais.html" />
-<meta itemprop="url" content="https://rschalch.github.io/ambientes-virtuais.html" />
-<meta property="og:description" content="Conceito e importância dos ambientes virtuais Virtualenvs são ambientes Python isolados dentro do sistema. Muitas distribuições Linux vem com uma instalação Python padrão e atualmente a mais usada é a 2.7. Acontece que nem sempre essa instalação é a mais apropriada para nossos projetos. Ainda mais hoje que vivemos ..." />
-<meta name="twitter:description" content="Conceito e importância dos ambientes virtuais Virtualenvs são ambientes Python isolados dentro do sistema. Muitas distribuições Linux vem com uma instalação Python padrão e atualmente a mais usada é a 2.7. Acontece que nem sempre essa instalação é a mais apropriada para nossos projetos. Ainda mais hoje que vivemos ..." />
-<meta property="og:article:published_time" content="2016-11-04" />
+<meta property="og:url" content="https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" />
+<meta name="twitter:title" content="Django - aula 02 - criando o&nbsp;projeto" />
+<meta name="twitter:url" content="https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" />
+<meta itemprop="url" content="https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" />
+<meta property="og:description" content="Criando seu primeiro projeto Django" />
+<meta name="twitter:description" content="Criando seu primeiro projeto Django" />
+<meta property="og:article:published_time" content="2016-11-12" />
 <meta property="og:article:author" content="Ricardo Bürger Schalch" >
-<meta property="og:article:tag" content="tools">
+<meta property="og:article:tag" content="django">
+<meta property="og:article:tag" content="python">
+<meta property="og:article:tag" content="web">
 
 <link href="https://rschalch.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's ATOM Feed"/>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
@@ -66,19 +68,23 @@
 <div class="uk-width-medium-7-10">
 
     <article class="uk-article">
-        <h1 class="uk-heading-large uk-article-title" itemprop="name">Ambientes&nbsp;Virtuais</h1>
-        <p class="uk-article-meta"><time datetime="2016-11-04" itemprop="datePublished">Sex 04 novembro 2016</time> in <a href="https://rschalch.github.io/category/tools.html">Tools</a>, <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/ambientes-virtuais.html#disqus_thread" itemprop="discussionUrl"></a></p>
+        <h1 class="uk-heading-large uk-article-title" itemprop="name">Django - Aula 02 - Criando o&nbsp;projeto</h1>
+        <p class="uk-article-meta"><time datetime="2016-11-12" itemprop="datePublished">Sáb 12 novembro 2016</time> in <a href="https://rschalch.github.io/category/django.html">Django</a>, <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html#disqus_thread" itemprop="discussionUrl"></a></p>
 
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/ambientes-virtuais.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button uk-visible-small"><i class="uk-icon-facebook-square"></i> Share</a>
-        <a href="https://twitter.com/intent/tweet?text=Ambientes%C2%A0Virtuais&url=https://rschalch.github.io/ambientes-virtuais.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button uk-visible-small" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
-        <a href="https://plus.google.com/share?url=https://rschalch.github.io/ambientes-virtuais.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button uk-visible-small"><i class="uk-icon-google-plus-square"></i> Share</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button uk-visible-small"><i class="uk-icon-facebook-square"></i> Share</a>
+        <a href="https://twitter.com/intent/tweet?text=Django%20-%20Aula%2002%20-%20Criando%20o%C2%A0projeto&url=https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button uk-visible-small" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
+        <a href="https://plus.google.com/share?url=https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button uk-visible-small"><i class="uk-icon-google-plus-square"></i> Share</a>
 
-        <section itemprop="articleBody"><h2>Conceito e importância dos ambientes&nbsp;virtuais</h2>
-<p>Virtualenvs são ambientes Python isolados dentro do sistema. Muitas distribuições Linux vem com uma instalação Python padrão e atualmente a mais usada é a 2.7. Acontece que nem sempre essa instalação é a mais apropriada para nossos projetos. Ainda mais hoje que vivemos em plena transição para o Python 3. E quando cada um de nossos projetos precisa de uma versão diferente do Python ou de suas bibliotecas? Ainda, e se o ambiente de produção possui uma versão&nbsp;específica?</p>
-<p>Para qualquer desenvolvedor isso seria uma situação muito complicada, tanto a nível de desenvolvimento, organização ou mesmo em se tratando de depuração de erros e testes. Claro que uma plataforma avançada e robusta como a nossa não deixaria de ter uma solução elegante para esses tipos de problemas. Apresentamos os ambientes virtuais, mais conhecidos como&nbsp;&#8220;virtualenvs&#8221;.</p>
-<p>O Python possui uma biblioteca específica para a criação desses ambientes separados e para instalar esse pacote&nbsp;basta:</p>
-<div class="highlight"><pre><span></span>pip install virtualenv
-</pre></div></section>
+        <section itemprop="articleBody"><h2>Criando seu primeiro projeto&nbsp;Django</h2>
+<p>Agora que conhecemos um pouquinho sobre a framework é hora de botar a mão na massa! Antes porém, é necessário preencher alguns requisitos do&nbsp;sistema:</p>
+<ol>
+<li>
+<p><strong>Controle de versão</strong>: Vamos usar o <span class="caps">GIT</span> para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é <span class="caps">GIT</span> ainda? Urgente, atualize-se porque saber trabalhar com <span class="caps">GIT</span> é uma exigência na nossa área! Um bom tutorial pode ser achado <a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git">aqui</a>.</p>
+</li>
+<li>
+<p><strong>Ambientes virtuais</strong>: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro&nbsp;artigo.</p>
+</li>
+</ol></section>
         <hr class="uk-article-divider">
     </article>
 
@@ -104,13 +110,13 @@
     <div class="uk-panel" id="mg-panel-social">
         <ul class="uk-nav uk-nav-side">
             <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/ambientes-virtuais.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button"><i class="uk-icon-facebook-square"></i> Share</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button"><i class="uk-icon-facebook-square"></i> Share</a>
             </li>
             <li>
-            <a href="https://twitter.com/intent/tweet?text=Ambientes%C2%A0Virtuais&url=https://rschalch.github.io/ambientes-virtuais.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
+            <a href="https://twitter.com/intent/tweet?text=Django%20-%20Aula%2002%20-%20Criando%20o%C2%A0projeto&url=https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
             </li>
             <li>
-            <a href="https://plus.google.com/share?url=https://rschalch.github.io/ambientes-virtuais.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button"><i class="uk-icon-google-plus-square"></i> Share</a>
+            <a href="https://plus.google.com/share?url=https://rschalch.github.io/drafts/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button"><i class="uk-icon-google-plus-square"></i> Share</a>
             </li>
         </ul>
     </div>
@@ -129,10 +135,10 @@
             <div class="uk-panel uk-panel-box">
                 <ul class="uk-nav uk-nav-side">
                     <li class="uk-nav-header">Categorias</li>
-                    <li ><a href="https://rschalch.github.io/category/django.html">Django</a></li>
+                    <li class="uk-active"><a href="https://rschalch.github.io/category/django.html">Django</a></li>
                     <li ><a href="https://rschalch.github.io/category/libraries.html">Libraries</a></li>
                     <li ><a href="https://rschalch.github.io/category/references.html">References</a></li>
-                    <li class="uk-active"><a href="https://rschalch.github.io/category/tools.html">Tools</a></li>
+                    <li ><a href="https://rschalch.github.io/category/tools.html">Tools</a></li>
                     <li class="uk-nav-header">Páginas</li>
                     
                     <li >
@@ -203,10 +209,10 @@
 
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             <li class="uk-nav-header">Categorias</li>
-            <li ><a href="https://rschalch.github.io/category/django.html">Django</a></li>
+            <li class="uk-active"><a href="https://rschalch.github.io/category/django.html">Django</a></li>
             <li ><a href="https://rschalch.github.io/category/libraries.html">Libraries</a></li>
             <li ><a href="https://rschalch.github.io/category/references.html">References</a></li>
-            <li class="uk-active"><a href="https://rschalch.github.io/category/tools.html">Tools</a></li>
+            <li ><a href="https://rschalch.github.io/category/tools.html">Tools</a></li>
             <li class="uk-nav-header">Páginas</li>        
             <li >
                 <a href="https://rschalch.github.io/pages/sobre-este-blog.html">Sobre este&nbsp;blog</a>
