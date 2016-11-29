@@ -26,7 +26,17 @@ a {
     }
 }
 
+
+
 // uikit override
+
+:not(pre) {
+    code {
+        color: $myorange;
+        background-color: #EEE;
+        padding: 2px 4px;
+    }
+}
 
 .uk-navbar-brand {
     text-transform: uppercase;

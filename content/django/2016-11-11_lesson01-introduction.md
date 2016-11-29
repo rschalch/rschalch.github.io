@@ -23,3 +23,7 @@ Suas características são:
 3. **Rápido desenvolvimento**: A framework permite que ultrapassemos muitas tarefas tediosas no ciclo da construção de uma aplicação, um exemplo disso é a geração automática de um sistema de administração baseado nos modelos de dados que criamos. Apenas com essa caractérística podemos construir um sistema CRUD em poucos minutos.
 
 4. **Não repetição**: Cada conceito ou parte de código deverá existir em um único lugar apenas, eliminando redundâncias. A idéia é reduzir ao máximo o trabalho de alterações dentro do software e fazê-lo mais conciso e inteligente.
+
+
+No decorrer desse curso introdutório vamos desenvolver uma simple aplicação CRUD para ajudar quem está começando a se familiarizar com os conceitos fundamentais do Django!
+

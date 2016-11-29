@@ -6,6 +6,11 @@ a {
   a:hover {
     color: #b85b09; }
 
+:not(pre) code {
+  color: #E8730C;
+  background-color: #EEE;
+  padding: 2px 4px; }
+
 .uk-navbar-brand {
   text-transform: uppercase; }
 

@@ -110,7 +110,7 @@
                     {% endif %}
 
                     <li class="uk-nav-divider"></li>
-                    <li {% if page_name == 'archives' %}class="uk-active"{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+                    <li {% if page_name == 'archives' %}class="uk-active"{% endif %}><a href="{{ SITEURL }}/archives.html">Arquivos</a></li>
                 </ul>
             </div>
 
@@ -129,11 +129,8 @@
                 {% endfor %}
             </div>
             {% endif %}
-
         </div>
-
     </div>
-
 </div>
 
 </main>
@@ -177,12 +174,10 @@
             <li {% if p == page %}class="uk-active"{% endif %}>
                 <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
             </li>
-            {% endfor %}
-                    
+            {% endfor %}                    
             {% endif %}
-
             <li class="uk-nav-divider"></li>
-            <li><a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Archives</a></li>
+            <li><a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Arquivos</a></li>
         </ul>
     </div>
 </div>
