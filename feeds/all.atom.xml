@@ -43,7 +43,7 @@ $ virtualenv -p usr/bin/python3 venv
 
 
 &lt;h2&gt;4. Instalando bibliotecas dentro do&amp;nbsp;ambiente&lt;/h2&gt;
-&lt;p&gt;Temos um ambiente instalado, ativado e pronto para uso! Vamos agora instalar a biblioteca requests que viverá apenas dentro desse&amp;nbsp;ambiente:&lt;/p&gt;
+&lt;p&gt;Temos um ambiente instalado, ativado e pronto para uso! Vamos agora usar o &lt;a href="https://rschalch.github.io/python-pip.html" title="Gerenciador de Pacotes Python"&gt;&lt;span class="caps"&gt;PIP&lt;/span&gt;&lt;/a&gt; para instalar a biblioteca requests que viverá apenas dentro desse&amp;nbsp;ambiente:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pip install requests
 &lt;/pre&gt;&lt;/div&gt;
 
