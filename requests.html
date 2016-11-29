@@ -79,16 +79,18 @@
 <p>Nos dias de hoje, podemos imaginar algum software que não faça algum tipo de consulta na&nbsp;internet?</p>
 <p>Conforme a integração tecnológica aumenta, surge também a necessidade de uma centralização cada vez maior a fim de otimizar todo um ecossistema de aplicações, evitar duplicações, aproveitar recursos, etc. Por consequência, o trabalho de pesquisar e extrair dados da rede, não apenas tornou-se uma ciência por si só, como se tranformou no &#8220;arroz com feijão&#8221; de qualquer desenvolvedor. Indepentendemente de plataforma ou linguagem, todos precisamos consumir esses dados, simplesmente devido ao fato de que a realidade hoje se baseia na conexão entre tudo e&nbsp;todos.</p>
 <p>Já que essa é uma necessidade tão básica, qual seria a biblioteca que mais abstrai todas as funções necessárias para realizar essa conexão e comunicação no principal dialeto da web (<abbr title="Hypertext Transfer Protocol"><span class="caps">HTTP</span></abbr>) e nos trazer todo o tipo de informação nos mais simples passos possíveis, mesmo sem que precisemos entender tudo o que está envolvido nesse&nbsp;processo?</p>
-<p>Sem dúvida alguma: <a href="http://docs.python-requests.org/en/master">Requests</a></p>
-<p>Segue abaixo um exemplo de como fazer uma simples chamada à <abbr title="Application Program Interface"><span class="caps">API</span></abbr> do Google&nbsp;Maps:</p>
+<p>Sem dúvida alguma: <a href="http://docs.python-requests.org/en/master">requests</a></p>
+<p>Para instalar essa biblioteca usamos o&nbsp;comando:</p>
+<div class="highlight"><pre><span></span>$ pip install requests
+</pre></div>
+
+
+<p>Abaixo um simples exemplo do uso da requests: fazer uma chamada à <abbr title="Application Program Interface"><span class="caps">API</span></abbr> do Google Maps e imprimir a&nbsp;resposta:</p>
 <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
-<span class="kn">import</span> <span class="nn">json</span>
 
 <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;sensor&#39;</span><span class="p">:</span> <span class="s1">&#39;false&#39;</span><span class="p">,</span> <span class="s1">&#39;address&#39;</span><span class="p">:</span> <span class="s1">&#39;Av. Paulista, 1000&#39;</span><span class="p">}</span>
 <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;http://maps.googleapis.com/maps/api/geocode/json&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-<span class="n">json_dict</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-<span class="n">json_response</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">content</span>
-<span class="k">print</span><span class="p">(</span><span class="n">json_response</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
 </pre></div></section>
         <hr class="uk-article-divider">
     </article>
