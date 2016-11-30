@@ -58,7 +58,7 @@
 &lt;p&gt;Quando iniciamos o servidor Jupyter ele nos abre uma página (http://localhost:8888/tree) onde podemos criar novos notebooks baseados nos seguintes kernels: IPython, R e Julia, sendo que apenas o IPython vem com a instalação&amp;nbsp;padrão.&lt;/p&gt;
 &lt;p&gt;&lt;a href="#my-id" data-uk-modal="{center:true}"&gt;&lt;img src="images/jupyter-1.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div id="my-id" class="uk-modal"&gt;
-    &lt;div class="uk-modal-dialog uk-width-1-2"&gt;
+    &lt;div class="uk-modal-dialog uk-width-1 normal-dialog"&gt;
         &lt;img src="images/jupyter-1.jpg" /&gt;
     &lt;/div&gt;
 &lt;/div&gt;</summary><category term="tools"></category><category term="notebooks"></category></entry><entry><title>PIP - Gerenciador de Pacotes Python</title><link href="https://rschalch.github.io/python-pip.html" rel="alternate"></link><published>2016-11-05T00:00:00-02:00</published><updated>2016-11-05T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-05:python-pip.html</id><summary type="html">&lt;h2&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;&lt;span class="caps"&gt;PIP&lt;/span&gt; Installs Packages&amp;nbsp;&amp;#8230;&amp;#8221;&lt;/h2&gt;
