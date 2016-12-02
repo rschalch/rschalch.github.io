@@ -6,7 +6,7 @@
 &lt;p&gt;&lt;strong&gt;Controle de versão&lt;/strong&gt;: Vamos usar o &lt;span class="caps"&gt;GIT&lt;/span&gt; para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é &lt;span class="caps"&gt;GIT&lt;/span&gt; ainda? Urgente, atualize-se porque saber trabalhar com &lt;span class="caps"&gt;GIT&lt;/span&gt; é uma exigência na nossa área! Um bom tutorial pode ser achado &lt;a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ambientes virtuais&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="{filename}2016-11-04_virtualenv.md" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ambientes virtuais&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry><entry><title>Django - Aula 01 - Introdução</title><link href="https://rschalch.github.io/django-framework-aula-01-introducao.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-11:django-framework-aula-01-introducao.html</id><summary type="html">&lt;h2&gt;Introdução à&amp;nbsp;framework&lt;/h2&gt;
 &lt;hr /&gt;
