@@ -9,7 +9,7 @@
 &lt;p&gt;&lt;strong&gt;Ambientes virtuais&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Instalação de&amp;nbsp;dependências&lt;/h2&gt;
+&lt;h2&gt;Criação do&amp;nbsp;ambiente&lt;/h2&gt;
 &lt;p&gt;O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Vamos criar um ambiente chamado &amp;#8220;django_project&amp;#8221; utilizando o Python 3 como padrão (aliás sempre que possível devemos fazer dessa forma pois a cada dia menos projetos são baseados no Python&amp;nbsp;2).&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; pasta_do_projeto
 $ virtualenv -p usr/bin/python3 django_project
@@ -23,7 +23,10 @@ $ virtualenv -p usr/bin/python3 django_project
 
 &lt;p&gt;Devemos ter agora o ambiente ativado e pronto para uso. O prompt do terminal por padrão mostra qual o ambiente que está sendo utilizado da seguinte maneira (no nosso&amp;nbsp;caso):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;django_project&lt;span class="o"&gt;)&lt;/span&gt; $ 
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry><entry><title>Django - Aula 01 - Introdução</title><link href="https://rschalch.github.io/django-framework-aula-01-introducao.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-11:django-framework-aula-01-introducao.html</id><summary type="html">&lt;h2&gt;Introdução à&amp;nbsp;framework&lt;/h2&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Instalação de&amp;nbsp;dependências&lt;/h2&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry><entry><title>Django - Aula 01 - Introdução</title><link href="https://rschalch.github.io/django-framework-aula-01-introducao.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-11:django-framework-aula-01-introducao.html</id><summary type="html">&lt;h2&gt;Introdução à&amp;nbsp;framework&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;p&gt;Django é a principal e mais conhecida framework Python para web nos dias atuais. Sua filosofia é baseada em &lt;abbr title="Rapid Application Development"&gt;&lt;span class="caps"&gt;RAD&lt;/span&gt;&lt;/abbr&gt;, um conceito muito importante no mundo do desenvolvimento de&amp;nbsp;software.&lt;/p&gt;
 &lt;p&gt;Suas características&amp;nbsp;são:&lt;/p&gt;
