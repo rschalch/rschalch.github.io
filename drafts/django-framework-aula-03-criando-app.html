@@ -6,9 +6,9 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Django - Aula 02 - Criando o projeto</title>
+<title>Django - Aula 03 - Criando o seu primeiro app</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Criando seu primeiro projeto Django">
+<meta name="description" content="Criando seu primeiro app em Django">
 <link rel="shortcut icon" href="https://rschalch.github.io/" type="">
 <meta name="author" content="Ricardo Bürger Schalch">
 <meta name="copyright" content="Ricardo Bürger Schalch">
@@ -16,15 +16,15 @@
 <meta name="twitter:site" content="@" />
 <meta property="og:site_name" content="rschalch's" />
 
-<meta property="og:title" content="Django - aula 02 - criando o&nbsp;projeto" />
+<meta property="og:title" content="Django - aula 03 - criando o seu primeiro&nbsp;app" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" />
-<meta name="twitter:title" content="Django - aula 02 - criando o&nbsp;projeto" />
-<meta name="twitter:url" content="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" />
-<meta itemprop="url" content="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" />
-<meta property="og:description" content="Criando seu primeiro projeto Django" />
-<meta name="twitter:description" content="Criando seu primeiro projeto Django" />
-<meta property="og:article:published_time" content="2016-11-12" />
+<meta property="og:url" content="https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" />
+<meta name="twitter:title" content="Django - aula 03 - criando o seu primeiro&nbsp;app" />
+<meta name="twitter:url" content="https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" />
+<meta itemprop="url" content="https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" />
+<meta property="og:description" content="Criando seu primeiro app em Django" />
+<meta name="twitter:description" content="Criando seu primeiro app em Django" />
+<meta property="og:article:published_time" content="2016-11-13" />
 <meta property="og:article:author" content="Ricardo Bürger Schalch" >
 <meta property="og:article:tag" content="django">
 <meta property="og:article:tag" content="python">
@@ -68,95 +68,17 @@
 <div class="uk-width-medium-7-10">
 
     <article class="uk-article">
-        <h1 class="uk-heading-large uk-article-title" itemprop="name">Django - Aula 02 - Criando o&nbsp;projeto</h1>
-        <p class="uk-article-meta"><time datetime="2016-11-12" itemprop="datePublished">Sáb 12 novembro 2016</time> in <a href="https://rschalch.github.io/category/django.html">Django</a>, <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html#disqus_thread" itemprop="discussionUrl"></a></p>
+        <h1 class="uk-heading-large uk-article-title" itemprop="name">Django - Aula 03 - Criando o seu primeiro&nbsp;app</h1>
+        <p class="uk-article-meta"><time datetime="2016-11-13" itemprop="datePublished">Dom 13 novembro 2016</time> in <a href="https://rschalch.github.io/category/django.html">Django</a>, <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html#disqus_thread" itemprop="discussionUrl"></a></p>
 
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button uk-visible-small"><i class="uk-icon-facebook-square"></i> Share</a>
-        <a href="https://twitter.com/intent/tweet?text=Django%20-%20Aula%2002%20-%20Criando%20o%C2%A0projeto&url=https://rschalch.github.io/django-framework-aula-02-criando-projeto.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button uk-visible-small" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
-        <a href="https://plus.google.com/share?url=https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button uk-visible-small"><i class="uk-icon-google-plus-square"></i> Share</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button uk-visible-small"><i class="uk-icon-facebook-square"></i> Share</a>
+        <a href="https://twitter.com/intent/tweet?text=Django%20-%20Aula%2003%20-%20Criando%20o%20seu%20primeiro%C2%A0app&url=https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button uk-visible-small" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
+        <a href="https://plus.google.com/share?url=https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button uk-visible-small"><i class="uk-icon-google-plus-square"></i> Share</a>
 
-        <section itemprop="articleBody"><h2>Pré-requisitos</h2>
-<p>Agora que conhecemos um pouquinho sobre a framework é hora de botar a mão na massa! Antes porém, é necessário preencher alguns requisitos do&nbsp;sistema:</p>
-<ol>
-<li>
-<p><strong>Controle de versão</strong>: Vamos usar o <span class="caps">GIT</span> para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é <span class="caps">GIT</span> ainda? Urgente, atualize-se porque saber trabalhar com <span class="caps">GIT</span> é uma exigência na nossa área! Um bom tutorial pode ser achado <a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git">neste endereço</a>.</p>
-</li>
-<li>
-<p><strong>Virtualenv</strong>: Se você não sabe o que ambientes virtuais são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro <a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais">artigo</a>.</p>
-</li>
-<li>
-<p><strong>Virtualenvwrapper</strong>: Uma série de extensões para tornar mais fácil o trabalho com o virtualenv. A instalação e utilização dessa ferramenta pode ser encontrada <a href="#">aqui</a>.</p>
-</li>
-</ol>
-<h2>Criação e ativação do&nbsp;ambiente</h2>
-<p>O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Em apenas um comando criaremos um ambiente chamado &#8220;django_project&#8221; em Python 3 e instalaremos a última versão do&nbsp;Django.</p>
-<div class="highlight"><pre><span></span>$ mkvirtualenv --python<span class="o">=</span>/usr/bin/python3 -i django django_project
-</pre></div>
-
-
-<p>Ativamos o nosso&nbsp;ambiente:</p>
-<div class="highlight"><pre><span></span>$ workon django_project
-</pre></div>
-
-
-<p>Devemos ter agora tudo pronto para começar. O prompt do terminal por padrão mostra qual o ambiente que está sendo utilizado da seguinte maneira (no nosso&nbsp;caso):</p>
-<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> $ 
-</pre></div>
-
-
-<h2>Iniciando um projeto&nbsp;Django</h2>
-<p>Sendo uma framework moderna e baseada em padrões <abbr title="Rapid Application Development"><span class="caps">RAD</span></abbr>, Django possui uma <abbr title="Command Line Interface"><span class="caps">CLI</span></abbr> que facilita muitos processos comuns na criação e andamento de um projeto. Primeiramente vá até o seu diretório padrão de projetos (aqui usaremos como exemplo &#8220;/home/user/projetos&#8221;). Isso porque o Django irá criar dentro desse diretório uma pasta onde todo o seu projeto será contido. Digite os seguintes&nbsp;comandos:</p>
-<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> $ <span class="nb">cd</span> /home/user/projetos  
-<span class="o">(</span>django_project<span class="o">)</span> /home/user/projetos $ django-admin startproject myproject  
-</pre></div>
-
-
-<p>O <code>django-admin</code> é um comando usado para funções administrativas como criar projetos e apps internos. Usando-o acima, criamos dentro da pasta &#8220;/home/user/projetos&#8221; um diretório com a seguinte&nbsp;estrutura:</p>
-<div class="highlight"><pre><span></span>myproject/
-    myproject/
-        __init__.py
-        settings.py
-        urls.py
-        wsgi.py
-    manage.py
-</pre></div>
-
-
-<p>Vamos explicar essa estrutura: A pasta &#8220;myproject&#8221; externa é uma pasta usada apenas pra conter o projeto. O Django realmente nao se importa como ela é chamada, ele a criou com esse nome porque foi o nome de projeto que especificamos. Agora, todos os arquivos que estão dentro dela são de suma importância para a aplicação. Dentro de &#8220;myproject&#8221; foi criada uma outra pasta com o mesmo nome. Essa pasta interna é o principal módulo do projeto, contendo importantes arquivos de configuração&nbsp;como:</p>
-<ol>
-<li><strong>settings.py</strong>: um dos arquivos mais usados, pois contém configurações globais da&nbsp;aplicação.</li>
-<li><strong>urls.py</strong>: arquivo usado para configurar as rotas (urls) do projeto e especificar suas respectivas&nbsp;views.</li>
-<li><strong>wsgi.py</strong>: usado para&nbsp;deploy.</li>
-</ol>
-<p>E além desses temos o <strong>manage.py</strong>, localizado ao lado do módulo do projeto, que faz basicamente as mesmas coisas que o django-admin, mas além disso ele coloca o módulo do nosso projeto dentro de <code>sys.path</code> e seta uma importante variável de ambiente, &#8220;DJANGO_SETTINGS_MODULE&#8221;, para que ela aponte para o arquivo settings.py descrito&nbsp;acima.</p>
-<h2>Sincronizando o banco de&nbsp;dados</h2>
-<p>Por padrão, Django nos oferece a opção de criação de um banco SQLite. Vamos usar esse banco em nosso projeto, mas para isso é necessário que sincronizemos esse banco com a&nbsp;aplicação:</p>
-<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> /home/user/projetos $ python manage.py migrate  
-</pre></div>
-
-
-<p>Com esse comando, criamos um banco SQLite (db.sqlite3) na raiz do&nbsp;projeto:</p>
-<div class="highlight"><pre><span></span>myproject/
-    myproject/
-        __init__.py
-        settings.py
-        urls.py
-        wsgi.py
-    db.sqlite3
-    manage.py
-</pre></div>
-
-
-<h2>Testando o&nbsp;projeto</h2>
-<p>Agora podemos ver se a aplicação está funcionando corretamente com o&nbsp;comando:</p>
-<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> /home/user/projetos $ python manage.py runserver  
-</pre></div>
-
-
-<p>Isso fará com que o Django rode a aplicação em um servidor local e sirva nosso projeto em &#8220;http://127.0.0.1:8000&#8221;. Abra seu navegador e digite esse&nbsp;endereço.</p>
-<p>Caso tudo esteja ok a seguinte página aparecerá (clique para&nbsp;ampliar):</p>
-<p><a href="images/django-1.jpg" data-uk-lightbox title=""><img src="images/django-1.jpg" /></a></p>
-<p>Parabéns! Temos nosso primeiro projeto em Django &#8220;up and running&#8221;&nbsp;;)</p></section>
+        <section itemprop="articleBody"><h2>Conceito de&nbsp;App</h2>
+<p>App (ou módulo) é um dos conceitos que constuma confundir bastante os iniciantes em Django. Quando criamos um projeto o Django cria a estrutura principal para nós, mas deixa conosco a responsabilidade da criação dos módulos que irão compor o funcionamento desse projeto. Um projeto pode conter vários módulos, cada um com suas funcionalidades ou papéis específicos. Podemos instalar apps de terceiros. Essa é uma das grandes vantagens da framework, permitindo o &#8220;loose coupling&#8221; (baixo acoplamento) para que possamos ter vários apps funcionando em conjunto, mas independentes um do outro. E como criamos esses&nbsp;apps?</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> /home/user/projetos $ django-admin startapp myapp  
+</pre></div></section>
         <hr class="uk-article-divider">
     </article>
 
@@ -182,13 +104,13 @@
     <div class="uk-panel" id="mg-panel-social">
         <ul class="uk-nav uk-nav-side">
             <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button"><i class="uk-icon-facebook-square"></i> Share</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button"><i class="uk-icon-facebook-square"></i> Share</a>
             </li>
             <li>
-            <a href="https://twitter.com/intent/tweet?text=Django%20-%20Aula%2002%20-%20Criando%20o%C2%A0projeto&url=https://rschalch.github.io/django-framework-aula-02-criando-projeto.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
+            <a href="https://twitter.com/intent/tweet?text=Django%20-%20Aula%2003%20-%20Criando%20o%20seu%20primeiro%C2%A0app&url=https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
             </li>
             <li>
-            <a href="https://plus.google.com/share?url=https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button"><i class="uk-icon-google-plus-square"></i> Share</a>
+            <a href="https://plus.google.com/share?url=https://rschalch.github.io/drafts/django-framework-aula-03-criando-app.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button"><i class="uk-icon-google-plus-square"></i> Share</a>
             </li>
         </ul>
     </div>
