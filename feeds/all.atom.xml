@@ -9,7 +9,7 @@
 &lt;p&gt;&lt;strong&gt;Ambiente virtual&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com os virtualenvs. A instalação e utilização dessa ferramenta pode ser encontrada &lt;a href="#"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com o virtualenv. A instalação e utilização dessa ferramenta pode ser encontrada &lt;a href="#"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Criação e ativação do&amp;nbsp;ambiente&lt;/h2&gt;
