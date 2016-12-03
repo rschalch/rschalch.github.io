@@ -126,8 +126,9 @@
 <ol>
 <li><strong>settings.py</strong>: um dos arquivos mais usados, pois contém configurações globais da&nbsp;aplicação.</li>
 <li><strong>urls.py</strong>: arquivo usado para configurar as rotas (urls) do projeto e especificar suas respectivas&nbsp;views.</li>
-<li><strong>wsgi.py</strong>: usado para deploy do&nbsp;projeto.</li>
-</ol></section>
+<li><strong>wsgi.py</strong>: usado para&nbsp;deploy.</li>
+</ol>
+<p>E além desses temos o <strong>manage.py</strong> que faz basicamente as mesmas coisas do django-admin, mas além disso ele coloca o módulo do nosso projeto dentro de <code>sys.path</code> e seta uma importante variável de ambiente, &#8220;DJANGO_SETTINGS_MODULE&#8221;, para que ela aponte para o arquivo settings.py descrito&nbsp;acima.</p></section>
         <hr class="uk-article-divider">
     </article>
 
