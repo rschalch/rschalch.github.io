@@ -3,13 +3,13 @@
 &lt;p&gt;Agora que conhecemos um pouquinho sobre a framework é hora de botar a mão na massa! Antes porém, é necessário preencher alguns requisitos do&amp;nbsp;sistema:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Controle de versão&lt;/strong&gt;: Vamos usar o &lt;span class="caps"&gt;GIT&lt;/span&gt; para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é &lt;span class="caps"&gt;GIT&lt;/span&gt; ainda? Urgente, atualize-se porque saber trabalhar com &lt;span class="caps"&gt;GIT&lt;/span&gt; é uma exigência na nossa área! Um bom tutorial pode ser achado &lt;a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controle de versão&lt;/strong&gt;: Vamos usar o &lt;span class="caps"&gt;GIT&lt;/span&gt; para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é &lt;span class="caps"&gt;GIT&lt;/span&gt; ainda? Urgente, atualize-se porque saber trabalhar com &lt;span class="caps"&gt;GIT&lt;/span&gt; é uma exigência na nossa área! Um bom tutorial pode ser achado &lt;a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git"&gt;neste endereço&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Ambiente virtual&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com os virtualenvs. A instalação e utilização dessa ferramenta pode ser encontrada&amp;nbsp;aqui.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com os virtualenvs. A instalação e utilização dessa ferramenta pode ser encontrada &lt;a href="#"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Criação e ativação do&amp;nbsp;ambiente&lt;/h2&gt;
