@@ -128,7 +128,11 @@
 <li><strong>urls.py</strong>: arquivo usado para configurar as rotas (urls) do projeto e especificar suas respectivas&nbsp;views.</li>
 <li><strong>wsgi.py</strong>: usado para&nbsp;deploy.</li>
 </ol>
-<p>E além desses temos o <strong>manage.py</strong> que faz basicamente as mesmas coisas do django-admin, mas além disso ele coloca o módulo do nosso projeto dentro de <code>sys.path</code> e seta uma importante variável de ambiente, &#8220;DJANGO_SETTINGS_MODULE&#8221;, para que ela aponte para o arquivo settings.py descrito&nbsp;acima.</p></section>
+<p>E além desses temos o <strong>manage.py</strong>, localizado ao lado do módulo do projeto, que faz basicamente as mesmas coisas que o django-admin, mas além disso ele coloca o módulo do nosso projeto dentro de <code>sys.path</code> e seta uma importante variável de ambiente, &#8220;DJANGO_SETTINGS_MODULE&#8221;, para que ela aponte para o arquivo settings.py descrito&nbsp;acima.</p>
+<h2>Criando seu primeiro&nbsp;app</h2>
+<p>App (ou módulo) é um dos conceitos que constuma confundir bastante os iniciantes em Django. Quando criamos um projeto o Django cria a estrutura principal para nós, mas deixa conosco a responsabilidade da criação dos módulos que irão compor o funcionamento desse projeto. Um projeto pode conter vários módulos, cada um com suas funcionalidades ou papéis específicos. Podemos instalar apps de terceiros. Essa é uma das grandes vantagens da framework, permitindo o &#8220;loose coupling&#8221; (baixo acoplamento) para que possamos ter vários apps funcionando em conjunto, mas independentes um do outro. E como criamos esses&nbsp;apps?</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> /home/user/projetos $ django-admin startapp myapp  
+</pre></div></section>
         <hr class="uk-article-divider">
     </article>
 
