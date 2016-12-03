@@ -9,10 +9,10 @@
 &lt;p&gt;&lt;strong&gt;Ambiente virtual&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com os&amp;nbsp;virtualenvs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com os virtualenvs. A instalação e utilização dessa ferramenta pode ser encontrada&amp;nbsp;aqui.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Criação do&amp;nbsp;ambiente&lt;/h2&gt;
+&lt;h2&gt;Criação e ativação do&amp;nbsp;ambiente&lt;/h2&gt;
 &lt;p&gt;O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Em apenas um comando criaremos um ambiente em Python 3 chamado &amp;#8220;django_project&amp;#8221; e instalaremos a última versão do&amp;nbsp;Django.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkvirtualenv --python&lt;span class="o"&gt;=&lt;/span&gt;/usr/bin/python3 -i django django_project
 &lt;/pre&gt;&lt;/div&gt;
