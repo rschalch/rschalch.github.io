@@ -82,7 +82,7 @@
 <p><strong>Controle de versão</strong>: Vamos usar o <span class="caps">GIT</span> para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é <span class="caps">GIT</span> ainda? Urgente, atualize-se porque saber trabalhar com <span class="caps">GIT</span> é uma exigência na nossa área! Um bom tutorial pode ser achado <a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git">neste endereço</a>.</p>
 </li>
 <li>
-<p><strong>Ambiente virtual</strong>: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro <a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais">artigo</a>.</p>
+<p><strong>Virtualenv</strong>: Se você não sabe o que ambientes virtuais são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro <a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais">artigo</a>.</p>
 </li>
 <li>
 <p><strong>Virtualenvwrapper</strong>: Uma série de extensões para tornar mais fácil o trabalho com o virtualenv. A instalação e utilização dessa ferramenta pode ser encontrada <a href="#">aqui</a>.</p>
@@ -99,8 +99,15 @@
 </pre></div>
 
 
-<p>Devemos ter agora o ambiente ativado e pronto para uso. O prompt do terminal por padrão mostra qual o ambiente que está sendo utilizado da seguinte maneira (no nosso&nbsp;caso):</p>
+<p>Devemos ter agora tudo pronto para começar. O prompt do terminal por padrão mostra qual o ambiente que está sendo utilizado da seguinte maneira (no nosso&nbsp;caso):</p>
 <div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> $ 
+</pre></div>
+
+
+<h2>Iniciando um projeto&nbsp;Django</h2>
+<p>Sendo uma framework moderna e baseada em padrões <abbr title="Rapid Application Development"><span class="caps">RAD</span></abbr>, Django possui uma <abbr title="Command Line Interface"><span class="caps">CLI</span></abbr> que facilita muitos processos comuns na criação e andamento de um projeto. Primeiramente vá até o seu diretório padrão de projetos (aqui usaremos como exemplo &#8220;/home/user/projetos&#8221;). Isso porque o Django irá criar dentro desse diretório uma pasta onde todo o seu projeto será&nbsp;contido.</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> $ <span class="nb">cd</span> /home/user/projetos  
+<span class="o">(</span>django_project<span class="o">)</span> /home/user/projetos $ django-admin startproject myproject  
 </pre></div></section>
         <hr class="uk-article-divider">
     </article>
