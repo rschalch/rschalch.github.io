@@ -29,17 +29,29 @@
 
 
 &lt;h2&gt;Iniciando um projeto&amp;nbsp;Django&lt;/h2&gt;
-&lt;p&gt;Sendo uma framework moderna e baseada em padrões &lt;abbr title="Rapid Application Development"&gt;&lt;span class="caps"&gt;RAD&lt;/span&gt;&lt;/abbr&gt;, Django possui uma &lt;abbr title="Command Line Interface"&gt;&lt;span class="caps"&gt;CLI&lt;/span&gt;&lt;/abbr&gt; que facilita muitos processos comuns na criação e andamento de um projeto. Primeiramente vá até o seu diretório padrão de projetos (aqui usaremos como exemplo &amp;#8220;/home/user/projetos&amp;#8221;). Isso porque o Django irá criar dentro desse diretório uma pasta onde todo o seu projeto será&amp;nbsp;contido.&lt;/p&gt;
+&lt;p&gt;Sendo uma framework moderna e baseada em padrões &lt;abbr title="Rapid Application Development"&gt;&lt;span class="caps"&gt;RAD&lt;/span&gt;&lt;/abbr&gt;, Django possui uma &lt;abbr title="Command Line Interface"&gt;&lt;span class="caps"&gt;CLI&lt;/span&gt;&lt;/abbr&gt; que facilita muitos processos comuns na criação e andamento de um projeto. Primeiramente vá até o seu diretório padrão de projetos (aqui usaremos como exemplo &amp;#8220;/home/user/projetos&amp;#8221;). Isso porque o Django irá criar dentro desse diretório uma pasta onde todo o seu projeto será contido. Digite os seguintes&amp;nbsp;comandos:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;django_project&lt;span class="o"&gt;)&lt;/span&gt; $ &lt;span class="nb"&gt;cd&lt;/span&gt; /home/user/projetos  
 &lt;span class="o"&gt;(&lt;/span&gt;django_project&lt;span class="o"&gt;)&lt;/span&gt; /home/user/projetos $ django-admin startproject myproject  
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;O &lt;code&gt;django-admin&lt;/code&gt; é um comando usado para funções como criar projetos e apps internos. Acima criamos dentro da pasta &amp;#8220;/home/user/projetos&amp;#8221; um diretório com a seguinte&amp;nbsp;estrutura:&lt;/p&gt;
+&lt;p&gt;O &lt;code&gt;django-admin&lt;/code&gt; é um comando usado para funções administrativas como criar projetos e apps internos. Usando-o acima, criamos dentro da pasta &amp;#8220;/home/user/projetos&amp;#8221; um diretório com a seguinte&amp;nbsp;estrutura:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;myproject/
     myproject/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
     manage.py
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry><entry><title>Django - Aula 01 - Introdução</title><link href="https://rschalch.github.io/django-framework-aula-01-introducao.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-11:django-framework-aula-01-introducao.html</id><summary type="html">&lt;h2&gt;Introdução à&amp;nbsp;framework&lt;/h2&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Vamos explicar essa estrutura: A pasta &amp;#8220;myproject&amp;#8221; externa é uma pasta usada apenas pra conter o projeto. O Django realmente nao se importa como ela é chamada, ele a criou com esse nome porque foi o nome de projeto que especificamos. Agora, todos os arquivos que estão dentro dela são de suma importância para a aplicação. Dentro de &amp;#8220;myproject&amp;#8221; foi criada uma outra pasta com o mesmo nome. Essa pasta interna é o principal módulo do projeto, contendo importantes arquivos de configuração&amp;nbsp;como:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;settings.py&lt;/strong&gt;: um dos arquivos mais usados, pois contém configurações globais da&amp;nbsp;aplicação.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;urls.py&lt;/strong&gt;: arquivo usado para configurar as rotas (urls) do projeto e especificar suas respectivas&amp;nbsp;views.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wsgi.py&lt;/strong&gt;: usado para deploy do&amp;nbsp;projeto.&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry><entry><title>Django - Aula 01 - Introdução</title><link href="https://rschalch.github.io/django-framework-aula-01-introducao.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-11:django-framework-aula-01-introducao.html</id><summary type="html">&lt;h2&gt;Introdução à&amp;nbsp;framework&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;p&gt;Django é a principal e mais conhecida framework Python para web nos dias atuais. Sua filosofia é baseada em &lt;abbr title="Rapid Application Development"&gt;&lt;span class="caps"&gt;RAD&lt;/span&gt;&lt;/abbr&gt;, um conceito muito importante no mundo do desenvolvimento de&amp;nbsp;software.&lt;/p&gt;
 &lt;p&gt;Suas características&amp;nbsp;são:&lt;/p&gt;
