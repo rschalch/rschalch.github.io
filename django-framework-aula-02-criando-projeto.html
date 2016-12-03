@@ -82,18 +82,20 @@
 <p><strong>Controle de versão</strong>: Vamos usar o <span class="caps">GIT</span> para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é <span class="caps">GIT</span> ainda? Urgente, atualize-se porque saber trabalhar com <span class="caps">GIT</span> é uma exigência na nossa área! Um bom tutorial pode ser achado <a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git">aqui</a>.</p>
 </li>
 <li>
-<p><strong>Ambientes virtuais</strong>: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro <a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais">artigo</a>.</p>
+<p><strong>Ambiente virtual</strong>: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro <a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais">artigo</a>.</p>
+</li>
+<li>
+<p><strong>Virtualenvwrapper</strong>: Uma série de extensões para tornar mais fácil o trabalho com os&nbsp;virtualenvs.</p>
 </li>
 </ol>
 <h2>Criação do&nbsp;ambiente</h2>
-<p>O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Vamos criar um ambiente chamado &#8220;django_project&#8221; utilizando o Python 3 como padrão (aliás sempre que possível devemos fazer dessa forma pois a cada dia menos projetos são baseados no Python&nbsp;2).</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> pasta_do_projeto
-$ virtualenv -p usr/bin/python3 django_project
+<p>O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Em apenas um comando criaremos um ambiente em Python 3 chamado &#8220;django_project&#8221; e instalaremos a última versão do&nbsp;Django.</p>
+<div class="highlight"><pre><span></span>$ mkvirtualenv --python<span class="o">=</span>/usr/bin/python3 -i django django_project
 </pre></div>
 
 
 <p>Ativamos o nosso&nbsp;ambiente:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">source</span> django_project/bin/activate
+<div class="highlight"><pre><span></span>$ workon django_project
 </pre></div>
 
 
@@ -103,7 +105,7 @@ $ virtualenv -p usr/bin/python3 django_project
 
 
 <h2>Instalação de&nbsp;dependências</h2>
-<p>Vamos instalar agora a última versão do Django framework com o <a href="https://rschalch.github.io/python-pip.html" title="Ambientes Virtuais"><span class="caps">PIP</span></a>:</p>
+<p>Vamos instalar agora a última versão do Django framework com o <a href="https://rschalch.github.io/python-pip.html" title="Ambientes Virtuais"><span class="caps">PIP</span></a>. Essa também é a maneira pela qual todas os outros módulos ou bibliotecas serão instalados, sempre certificando-se de que o ambiente específico do projeto esteja ativado&nbsp;primeiro.</p>
 <div class="highlight"><pre><span></span><span class="o">(</span>django_project<span class="o">)</span> $ pip install django
 </pre></div></section>
         <hr class="uk-article-divider">

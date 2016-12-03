@@ -6,18 +6,20 @@
 &lt;p&gt;&lt;strong&gt;Controle de versão&lt;/strong&gt;: Vamos usar o &lt;span class="caps"&gt;GIT&lt;/span&gt; para essa finalidade, então certifique-se de que ele esteja instalado na sua máquina. Não conhece ou não sabe o que é &lt;span class="caps"&gt;GIT&lt;/span&gt; ainda? Urgente, atualize-se porque saber trabalhar com &lt;span class="caps"&gt;GIT&lt;/span&gt; é uma exigência na nossa área! Um bom tutorial pode ser achado &lt;a href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ambientes virtuais&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ambiente virtual&lt;/strong&gt;: Se não sabe o que são, sua importância, ou como instalar, escrevi sobre esse assunto em um outro &lt;a href="https://rschalch.github.io/ambientes-virtuais-virtualenv.html" title="Ambientes Virtuais"&gt;artigo&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Virtualenvwrapper&lt;/strong&gt;: Uma série de extensões para tornar mais fácil o trabalho com os&amp;nbsp;virtualenvs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Criação do&amp;nbsp;ambiente&lt;/h2&gt;
-&lt;p&gt;O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Vamos criar um ambiente chamado &amp;#8220;django_project&amp;#8221; utilizando o Python 3 como padrão (aliás sempre que possível devemos fazer dessa forma pois a cada dia menos projetos são baseados no Python&amp;nbsp;2).&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; pasta_do_projeto
-$ virtualenv -p usr/bin/python3 django_project
+&lt;p&gt;O primeiro passo é nos certificarmos de termos todo o ambiente virtual preparado para a instalação dos pacotes do projeto. Em apenas um comando criaremos um ambiente em Python 3 chamado &amp;#8220;django_project&amp;#8221; e instalaremos a última versão do&amp;nbsp;Django.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkvirtualenv --python&lt;span class="o"&gt;=&lt;/span&gt;/usr/bin/python3 -i django django_project
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Ativamos o nosso&amp;nbsp;ambiente:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;source&lt;/span&gt; django_project/bin/activate
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ workon django_project
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -27,7 +29,7 @@ $ virtualenv -p usr/bin/python3 django_project
 
 
 &lt;h2&gt;Instalação de&amp;nbsp;dependências&lt;/h2&gt;
-&lt;p&gt;Vamos instalar agora a última versão do Django framework com o &lt;a href="https://rschalch.github.io/python-pip.html" title="Ambientes Virtuais"&gt;&lt;span class="caps"&gt;PIP&lt;/span&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Vamos instalar agora a última versão do Django framework com o &lt;a href="https://rschalch.github.io/python-pip.html" title="Ambientes Virtuais"&gt;&lt;span class="caps"&gt;PIP&lt;/span&gt;&lt;/a&gt;. Essa também é a maneira pela qual todas os outros módulos ou bibliotecas serão instalados, sempre certificando-se de que o ambiente específico do projeto esteja ativado&amp;nbsp;primeiro.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;django_project&lt;span class="o"&gt;)&lt;/span&gt; $ pip install django
 &lt;/pre&gt;&lt;/div&gt;</summary><category term="django"></category><category term="python"></category><category term="web"></category></entry><entry><title>Django - Aula 01 - Introdução</title><link href="https://rschalch.github.io/django-framework-aula-01-introducao.html" rel="alternate"></link><published>2016-11-11T00:00:00-02:00</published><updated>2016-11-11T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-11:django-framework-aula-01-introducao.html</id><summary type="html">&lt;h2&gt;Introdução à&amp;nbsp;framework&lt;/h2&gt;
 &lt;hr /&gt;
