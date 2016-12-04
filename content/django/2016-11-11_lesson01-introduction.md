@@ -27,3 +27,5 @@ Suas características são:
 
 No decorrer desse curso introdutório vamos desenvolver uma simple aplicação CRUD para ajudar quem está começando a se familiarizar com os conceitos fundamentais do Django!
 
+A versão da framework utilizada nos tutoriais será a 1.10.
+
