@@ -54,7 +54,24 @@ $ pip install --upgrade autopep8
 
 &lt;p&gt;Recarregue o arquivo e o erro desaparece! Note que ainda o pylint coloca uma linha verde indicando que o módulo deve conter uma docstring, ou seja, ele ainda encoraja as melhores&amp;nbsp;práticas.&lt;/p&gt;
 &lt;p&gt;&lt;a href="images/extensions-1.png" data-uk-lightbox title=""&gt;&lt;img src="images/extensions-1.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Apenas com esses recursos já temos um vscode bastante útil para desenvolver em Python! Futuramente postarei mais truques e dicas&amp;nbsp;;)&lt;/p&gt;</summary><category term="tools"></category><category term="editors"></category></entry><entry><title>Django - Aula 02 - Criando o projeto</title><link href="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" rel="alternate"></link><published>2016-11-12T00:00:00-02:00</published><updated>2016-11-12T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-12:django-framework-aula-02-criando-projeto.html</id><summary type="html">&lt;h2&gt;Pré-requisitos&lt;/h2&gt;
+&lt;p&gt;Apenas com esses recursos já temos um vscode bastante útil para desenvolver em Python! Futuramente postarei mais truques e dicas&amp;nbsp;;)&lt;/p&gt;</summary><category term="tools"></category><category term="editors"></category></entry><entry><title>Wget - Fazendo download de arquivos com Python</title><link href="https://rschalch.github.io/wget-download-arquivos-com-python.html" rel="alternate"></link><published>2016-12-01T00:00:00-02:00</published><updated>2016-12-01T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-12-01:wget-download-arquivos-com-python.html</id><summary type="html">&lt;h2&gt;Fazendo download de arquivos com&amp;nbsp;Python&lt;/h2&gt;
+&lt;p&gt;Wget é uma biblioteca que facilita a implementação de downloads de arquivos com Python. Pode ser usada para diversos fins, web crawling, downloads de websites inteiros de forma recursiva, páginas inteiras de imagens. Ficou famosa por ser mencionada no filme &amp;#8220;Social&amp;nbsp;Network&amp;#8221;:&lt;/p&gt;
+&lt;p&gt;&lt;a href="images/wget.jpg" data-uk-lightbox title=""&gt;&lt;img src="images/wget.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;First up is Kirkland, they keep everything open and allow indexes on their apache configuration,&lt;/code&gt; 
+&lt;code&gt;so a little wget magic is enough to download the entire Kirkland facebook. Kid stuff!&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Instalação&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pip install wget
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Exemplo de&amp;nbsp;uso&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;wget&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://www.example.com/caminho/para/arquivo.mp3&amp;#39;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;filename&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;wget&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;download&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;................................................&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="mi"&gt;3841532&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;3841532&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;filename&lt;/span&gt;
+&lt;span class="s1"&gt;&amp;#39;arquivo.mp3&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="python"></category><category term="wget"></category><category term="libraries"></category></entry><entry><title>Django - Aula 02 - Criando o projeto</title><link href="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" rel="alternate"></link><published>2016-11-12T00:00:00-02:00</published><updated>2016-11-12T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-12:django-framework-aula-02-criando-projeto.html</id><summary type="html">&lt;h2&gt;Pré-requisitos&lt;/h2&gt;
 &lt;p&gt;Agora que conhecemos um pouquinho sobre a framework é hora de botar a mão na massa! Antes porém, é necessário preencher alguns requisitos do&amp;nbsp;sistema:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;

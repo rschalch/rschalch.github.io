@@ -1,21 +1,14 @@
-<meta property="og:title" content="rschalch's" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://rschalch.github.io" />
-<meta name="twitter:url" content="https://rschalch.github.io" />
-<meta itemprop="name" content="rschalch's">
-<meta itemprop="url" content="https://rschalch.github.io">
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="pt-br" class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <![endif]-->
-<!--[if IE 7]>         <html lang="pt-br" class="no-js lt-ie9 lt-ie8" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <![endif]-->
-<!--[if IE 8]>         <html lang="pt-br" class="no-js lt-ie9" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="pt-br" class="no-js" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="pt-br" class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
+<!--[if IE 7]>         <html lang="pt-br" class="no-js lt-ie9 lt-ie8" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
+<!--[if IE 8]>         <html lang="pt-br" class="no-js lt-ie9" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-br" class="no-js" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Libraries</title>
+<title>Wget - Fazendo download de arquivos com Python</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content="Fazendo download de arquivos com Python Wget é uma biblioteca que facilita a implementação de downloads de arquivos com Python. Pode ser usada para diversos fins, web crawling, downloads de websites inteiros de forma recursiva, páginas inteiras de imagens. Ficou famosa por ser mencionada no filme “Social Network”: First up ...">
 
 <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
@@ -40,12 +33,21 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
 <meta property="og:site_name" content="rschalch's" />
-<meta property="og:title" content="rschalch's" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://rschalch.github.io" />
-<meta name="twitter:url" content="https://rschalch.github.io" />
-<meta itemprop="name" content="rschalch's" />
-<meta itemprop="url" content="https://rschalch.github.io"/>
+
+<meta property="og:title" content="Wget - fazendo download de arquivos com&nbsp;python" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rschalch.github.io/wget-download-arquivos-com-python.html" />
+<meta name="twitter:title" content="Wget - fazendo download de arquivos com&nbsp;python" />
+<meta name="twitter:url" content="https://rschalch.github.io/wget-download-arquivos-com-python.html" />
+<meta itemprop="url" content="https://rschalch.github.io/wget-download-arquivos-com-python.html" />
+<meta property="og:description" content="Fazendo download de arquivos com Python Wget é uma biblioteca que facilita a implementação de downloads de arquivos com Python. Pode ser usada para diversos fins, web crawling, downloads de websites inteiros de forma recursiva, páginas inteiras de imagens. Ficou famosa por ser mencionada no filme “Social Network”: First up ..." />
+<meta name="twitter:description" content="Fazendo download de arquivos com Python Wget é uma biblioteca que facilita a implementação de downloads de arquivos com Python. Pode ser usada para diversos fins, web crawling, downloads de websites inteiros de forma recursiva, páginas inteiras de imagens. Ficou famosa por ser mencionada no filme “Social Network”: First up ..." />
+<meta property="og:article:published_time" content="2016-12-01" />
+<meta property="og:article:author" content="Ricardo Bürger Schalch" >
+<meta property="og:article:tag" content="python">
+<meta property="og:article:tag" content="wget">
+<meta property="og:article:tag" content="libraries">
+
 <link href="https://rschalch.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="rschalch's ATOM Feed"/>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.15.0/css/uikit.min.css">
@@ -81,28 +83,69 @@
 
     <div class="uk-grid" data-uk-grid-margin>
         
-<div class="uk-width-medium-4-5">
+<div class="uk-width-medium-7-10">
+
+    <article class="uk-article">
+        <h1 class="uk-heading-large uk-article-title" itemprop="name">Wget - Fazendo download de arquivos com&nbsp;Python</h1>
+        <p class="uk-article-meta"><time datetime="2016-12-01" itemprop="datePublished">Qui 01 dezembro 2016</time> in <a href="https://rschalch.github.io/category/libraries.html">Libraries</a>, <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/wget-download-arquivos-com-python.html#disqus_thread" itemprop="discussionUrl"></a></p>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/wget-download-arquivos-com-python.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button uk-visible-small"><i class="uk-icon-facebook-square"></i> Share</a>
+        <a href="https://twitter.com/intent/tweet?text=Wget%20-%20Fazendo%20download%20de%20arquivos%20com%C2%A0Python&url=https://rschalch.github.io/wget-download-arquivos-com-python.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button uk-visible-small" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
+        <a href="https://plus.google.com/share?url=https://rschalch.github.io/wget-download-arquivos-com-python.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button uk-visible-small"><i class="uk-icon-google-plus-square"></i> Share</a>
+
+        <section itemprop="articleBody"><h2>Fazendo download de arquivos com&nbsp;Python</h2>
+<p>Wget é uma biblioteca que facilita a implementação de downloads de arquivos com Python. Pode ser usada para diversos fins, web crawling, downloads de websites inteiros de forma recursiva, páginas inteiras de imagens. Ficou famosa por ser mencionada no filme &#8220;Social&nbsp;Network&#8221;:</p>
+<p><a href="images/wget.jpg" data-uk-lightbox title=""><img src="images/wget.jpg" /></a></p>
+<p><code>First up is Kirkland, they keep everything open and allow indexes on their apache configuration,</code> 
+<code>so a little wget magic is enough to download the entire Kirkland facebook. Kid stuff!</code></p>
+<h2>Instalação</h2>
+<div class="highlight"><pre><span></span>$ pip install wget
+</pre></div>
 
 
-            <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="https://rschalch.github.io/wget-download-arquivos-com-python.html" class="uk-article-title uk-link-muted" itemprop="name">Wget - Fazendo download de arquivos com&nbsp;Python</a>
-                <p class="uk-article-meta"><time datetime="2016-12-01" itemprop="datePublished">Qui 01 dezembro 2016</time> • <a href="https://rschalch.github.io/category/libraries.html">Libraries</a> • <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/wget-download-arquivos-com-python.html#disqus_thread" itemprop="discussionUrl"></a></p>
-                <section itemprop="articleBody">Fazendo download de arquivos com Python Wget é uma biblioteca que facilita a implementação de downloads de arquivos com Python. Pode ser usada para diversos fins, web crawling, downloads de websites inteiros de forma recursiva, páginas inteiras de imagens. Ficou famosa por ser mencionada no filme “Social Network”: First ...</section>
-                <p><a href="https://rschalch.github.io/wget-download-arquivos-com-python.html">Read More</a></p>
-                <a href="https://rschalch.github.io/wget-download-arquivos-com-python.html#disqus_thread"></a>
-                <hr class="uk-article-divider">
-            </article>
+<h2>Exemplo de&nbsp;uso</h2>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">wget</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;http://www.example.com/caminho/para/arquivo.mp3&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">filename</span> <span class="o">=</span> <span class="n">wget</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="mi">100</span><span class="o">%</span> <span class="p">[</span><span class="o">................................................</span><span class="p">]</span> <span class="mi">3841532</span> <span class="o">/</span> <span class="mi">3841532</span><span class="o">&gt;</span>
+<span class="o">&gt;&gt;</span> <span class="n">filename</span>
+<span class="s1">&#39;arquivo.mp3&#39;</span>
+</pre></div></section>
+        <hr class="uk-article-divider">
+    </article>
 
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'rschalch'; // required: replace example with your forum shortname
 
-        <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="https://rschalch.github.io/requests.html" class="uk-article-title uk-link-muted" itemprop="name">Requests</a>
-                <p class="uk-article-meta"><time datetime="2016-11-11" itemprop="datePublished">Sex 11 novembro 2016</time> • <a href="https://rschalch.github.io/category/libraries.html">Libraries</a> • <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="https://rschalch.github.io/requests.html#disqus_thread" itemprop="discussionUrl"></a></p>
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-                <section itemprop="articleBody">Uma simples e elegante biblioteca para requisições HTTP Nos dias de hoje, podemos imaginar algum software que não faça algum tipo de consulta na internet? Conforme a integração tecnológica ...</section>
-                <p><a href="https://rschalch.github.io/requests.html">Read More</a></p>
-                <hr class="uk-article-divider">
-        </article>
+</div>
 
+<div class="mg-container-social uk-width-medium-1-10 uk-hidden-small">
+
+    <div class="uk-panel" id="mg-panel-social">
+        <ul class="uk-nav uk-nav-side">
+            <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://rschalch.github.io/wget-download-arquivos-com-python.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" taget="_blank" class="uk-button"><i class="uk-icon-facebook-square"></i> Share</a>
+            </li>
+            <li>
+            <a href="https://twitter.com/intent/tweet?text=Wget%20-%20Fazendo%20download%20de%20arquivos%20com%C2%A0Python&url=https://rschalch.github.io/wget-download-arquivos-com-python.html&via=" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="uk-button" target="_blank"><i class="uk-icon-twitter"></i> Tweet</a>
+            </li>
+            <li>
+            <a href="https://plus.google.com/share?url=https://rschalch.github.io/wget-download-arquivos-com-python.html" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="uk-button"><i class="uk-icon-google-plus-square"></i> Share</a>
+            </li>
+        </ul>
+    </div>
 
 </div>
  
