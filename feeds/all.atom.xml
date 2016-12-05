@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>rschalch's</title><link href="https://rschalch.github.io/" rel="alternate"></link><link href="https://rschalch.github.io/feeds/all.atom.xml" rel="self"></link><id>https://rschalch.github.io/</id><updated>2016-11-12T00:00:00-02:00</updated><entry><title>Django - Aula 02 - Criando o projeto</title><link href="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" rel="alternate"></link><published>2016-11-12T00:00:00-02:00</published><updated>2016-11-12T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-12:django-framework-aula-02-criando-projeto.html</id><summary type="html">&lt;h2&gt;Pré-requisitos&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>rschalch's</title><link href="https://rschalch.github.io/" rel="alternate"></link><link href="https://rschalch.github.io/feeds/all.atom.xml" rel="self"></link><id>https://rschalch.github.io/</id><updated>2016-12-01T00:00:00-02:00</updated><entry><title>Configurando o Visual Studio Code para Python</title><link href="https://rschalch.github.io/configurando-vscode-para-python.html" rel="alternate"></link><published>2016-12-01T00:00:00-02:00</published><updated>2016-12-01T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-12-01:configurando-vscode-para-python.html</id><summary type="html">&lt;h2&gt;Instalação&lt;/h2&gt;
+&lt;p&gt;Agora seria uma boa oportunidade, para quem ainda não leu o &lt;a href="https://rschalch.github.io/escolha-seu-editor.html" title="Como escolher o seu editor"&gt;artigo sobre escolha de editores&lt;/a&gt;, checar as vantagens e desvantagens dos principais atualmente no mercado. Decidi pelo editor free da (quem diria) Micro$oft por uma série de fatores, mas ele não é o único a ter ótimas&amp;nbsp;opções.&lt;/p&gt;
+&lt;p&gt;Enfim, é uma escolha pessoal, mas aqui o assunto é&amp;nbsp;vscode!&lt;/p&gt;
+&lt;p&gt;Para instalá-lo baixe e execute o arquivo .deb em &lt;a href="https://code.visualstudio.com/"&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;Vamos agora abrir o vscode e instalar alguns plugins necessários para um bom workflow. Com o editor aberto pressione &lt;code&gt;CTRL+SHIFT+X&lt;/code&gt; para abrir a aba de plugins. No campo de pesquisa procure pela palavra &amp;#8220;python&amp;#8221; e instale as seguintes&amp;nbsp;extensões:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;: Um plugin completo escrito por um cara muito talentoso chamado Don Jayamanne. A extensão conta com muitas utilidades como linting, intellisense, formatação de código, refatoramento, debug, testes, execução de código em terminal, seleção de interpretador para ambientes virtuais e muito mais. Extremamente&amp;nbsp;configurável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Python Extended&lt;/strong&gt;: Permite o autocompletar de funções juntamente com todos os argumentos da requerida&amp;nbsp;função.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Magic Python&lt;/strong&gt;: Auxilia na sintaxe, aperfeiçoando a leitura de código Python no&amp;nbsp;editor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Configurando os&amp;nbsp;plugins&lt;/h2&gt;
+&lt;p&gt;Acho que uma das primeiras coisas a se fazer é configurar o editor para ler o interpretador Python correto. Pressione &lt;code&gt;CTRL+SHIFT+P&lt;/code&gt; para abrir o menu mágico do vscode e digite &amp;#8220;Preference: Open Workspace Settings&amp;#8221;. Ele abrirá do lado direito do editor um arquivo chamado &amp;#8220;settings.json&amp;#8221;. Esse arquivo ficará armazenado na raiz do seu projeto, dentro de uma pasta chamada &amp;#8220;.vscode&amp;#8221;. Nessa pasta estão todos os arquivos de configuração que o vscode gera para o presente projeto. Para saber o caminho do interpretador Python no nosso projeto digite o seguinte &lt;strong&gt;com o ambiente virtual ativado se for o caso&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ which python
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;e insira o resultado no&amp;nbsp;settings.json:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;python.pythonPath&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;[/caminho/para/meu/interpretador/python]&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Vamos agora configurar o formatador de código autopep8. Antes porém, instale esse módulo no seu&amp;nbsp;ambiente:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pip install pep8   
+$ pip install --upgrade autopep8
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;e diga ao vscode que irá usar esse formatador, inserindo o seguinte no arquivo&amp;nbsp;settings.json:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;python.pythonPath&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;[/caminho/para/meu/interpretador/python]&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;python.linting.pep8Enabled&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;python.formatting.provider&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;autopep8&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Salve o arquivo e para formatar seu código digite &lt;code&gt;CTRL+SHIFT+I&lt;/code&gt;.&amp;nbsp;Voilà!&lt;/p&gt;
+&lt;p&gt;Uma coisa que costuma causar confusão quando se instala a extensão Python do Don Jayamanne, é o fato de muitos imports serem marcados como erro no&amp;nbsp;editor:&lt;/p&gt;
+&lt;p&gt;&lt;a href="images/extensions.png" data-uk-lightbox title=""&gt;&lt;img src="images/extensions.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Isso é devido ao fato da extensão necessitar de algum linter instalado no ambiente. Eu uso o&amp;nbsp;pylint.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pip install pylint
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Recarregue o arquivo e o erro desaparece! Note que ainda o pylint coloca uma linha verde indicando que o módulo deve conter uma docstring, ou seja, ele ainda encoraja as melhores&amp;nbsp;práticas.&lt;/p&gt;
+&lt;p&gt;&lt;a href="images/extensions-1.png" data-uk-lightbox title=""&gt;&lt;img src="images/extensions-1.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apenas com esses recursos já temos um vscode bastante útil para desenvolver em Python! Futuramente postarei mais truques e dicas&amp;nbsp;;)&lt;/p&gt;</summary><category term="tools"></category><category term="editors"></category></entry><entry><title>Django - Aula 02 - Criando o projeto</title><link href="https://rschalch.github.io/django-framework-aula-02-criando-projeto.html" rel="alternate"></link><published>2016-11-12T00:00:00-02:00</published><updated>2016-11-12T00:00:00-02:00</updated><author><name>Ricardo Bürger Schalch</name></author><id>tag:rschalch.github.io,2016-11-12:django-framework-aula-02-criando-projeto.html</id><summary type="html">&lt;h2&gt;Pré-requisitos&lt;/h2&gt;
 &lt;p&gt;Agora que conhecemos um pouquinho sobre a framework é hora de botar a mão na massa! Antes porém, é necessário preencher alguns requisitos do&amp;nbsp;sistema:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
